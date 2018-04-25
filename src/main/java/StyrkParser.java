@@ -9,9 +9,9 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
-public class Parser {
+public class StyrkParser {
 
-  public Parser() {
+  public StyrkParser() {
   }
 
   private FileReader fileReader;
@@ -25,6 +25,7 @@ public class Parser {
   }
 
   private Reader bufferedReader = new BufferedReader(fileReader);
+
   private CSVParser parser;
 
   {
@@ -35,20 +36,19 @@ public class Parser {
     }
   }
 
-
-  public List<KategoriKode> parseFil() throws IOException {
+  public List<KategoriKode> parseMappingFile() throws IOException {
 
     List<CSVRecord> records = parser.getRecords();
 
     parser.close();
 
     return records.stream()
-        .map(this::mapToKategorKode).collect(
+        .map(this::mapToKategorKodeAndTrim).collect(
             Collectors.toList());
   }
 
-  private KategoriKode mapToKategorKode(CSVRecord record) {
-    return new KategoriKode(record.get(0), record.get(1), record.get(2), record.get(3));
+  private KategoriKode mapToKategorKodeAndTrim(CSVRecord record) {
+    return new KategoriKode(record.get(0).trim(), record.get(1).trim(), record.get(2).trim(), record.get(3).trim());
   }
 
 }
