@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="stdout_json" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%level %logger %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="stdout_json" />
+    </root>
+</configuration>
