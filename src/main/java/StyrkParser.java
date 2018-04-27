@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.apache.commons.csv.CSVFormat;
@@ -14,17 +10,16 @@ public class StyrkParser {
   public StyrkParser() {
   }
 
-  private FileReader fileReader;
+  private Reader bufferedReader;
 
   {
-    try {
-      fileReader = new FileReader("src/main/resources/styrk_kategori_mapping.csv");
-    } catch (FileNotFoundException e) {
+    try (InputStream is = getClass().getResourceAsStream("/styrk_kategori_mapping.csv")){
+      bufferedReader = new BufferedReader(new InputStreamReader(is));
+
+    } catch (IOException e) {
       e.printStackTrace();
     }
   }
-
-  private Reader bufferedReader = new BufferedReader(fileReader);
 
   private CSVParser parser;
 
