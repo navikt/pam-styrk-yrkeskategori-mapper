@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class KategoriKode {
 
 
@@ -33,4 +35,24 @@ public class KategoriKode {
     return kategori2;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    KategoriKode that = (KategoriKode) o;
+    return Objects.equals(styrkKode, that.styrkKode) &&
+        Objects.equals(styrkKodeTekst, that.styrkKodeTekst) &&
+        Objects.equals(kategori1, that.kategori1) &&
+        Objects.equals(kategori2, that.kategori2);
+  }
+
+  @Override
+  public int hashCode() {
+
+    return Objects.hash(styrkKode, styrkKodeTekst, kategori1, kategori2);
+  }
 }
