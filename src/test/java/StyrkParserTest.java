@@ -1,14 +1,13 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.io.IOException;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
 class StyrkParserTest {
 
   @Test
-  void styrkParserSkalReturnererRiktigeKategoriKoder() throws Exception {
+  void styrkParserSkalReturnererRiktigeKategoriKoder() {
 
     KategoriKode testKategoriKode1 = new KategoriKode(
         "110",
@@ -24,7 +23,7 @@ class StyrkParserTest {
         "Restaurant og forpleining"
     );
 
-    String mappingFileLocation =  "/styrk_kategori_mapping.csv";
+    String mappingFileLocation = "/styrk_kategori_mapping.csv";
 
     StyrkParser styrkParser = new StyrkParser();
 
