@@ -1,5 +1,8 @@
-import java.io.*;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.List;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -7,39 +10,25 @@ import org.apache.commons.csv.CSVRecord;
 
 public class StyrkParser {
 
-  public StyrkParser() {
-  }
+  private final static Logger LOGGER = Logger.getLogger(StyrkParser.class.getName());
 
-  private Reader bufferedReader;
+  public List<KategoriKode> parseMappingFile(String mappingFileLocation) throws Exception {
 
-  {
-    try (InputStream is = getClass().getResourceAsStream("/styrk_kategori_mapping.csv")){
-      bufferedReader = new BufferedReader(new InputStreamReader(is));
-
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-  }
-
-  private CSVParser parser;
-
-  {
     try {
-      parser = new CSVParser(bufferedReader, CSVFormat.DEFAULT.withDelimiter(';'));
-    } catch (IOException e) {
-      e.printStackTrace();
+      InputStream inputStream = getClass().getResourceAsStream(mappingFileLocation);
+
+      Reader bufferedReader = new InputStreamReader(inputStream);
+      CSVParser parser = new CSVParser(bufferedReader, CSVFormat.DEFAULT.withDelimiter(';'));
+      List<CSVRecord> records = parser.getRecords();
+
+      return records.stream()
+          .map(this::mapToKategorKodeAndTrim).collect(
+              Collectors.toList());
+    } catch (Exception error) {
+      LOGGER.warning("Klarte ikke parse mapping-fil: " + error.getMessage());
+      throw(error);
     }
-  }
 
-  public List<KategoriKode> parseMappingFile() throws IOException {
-
-    List<CSVRecord> records = parser.getRecords();
-
-    parser.close();
-
-    return records.stream()
-        .map(this::mapToKategorKodeAndTrim).collect(
-            Collectors.toList());
   }
 
   private KategoriKode mapToKategorKodeAndTrim(CSVRecord record) {
