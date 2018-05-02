@@ -10,8 +10,6 @@ node {
 
     def mvnHome = tool "maven-3.3.9"
     def mvn = "${mvnHome}/bin/mvn"
-    def deployEnv = "${env.DEPLOY_ENV}"
-    def namespace = "${env.NAMESPACE}"
 
     try {
 
