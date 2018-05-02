@@ -48,18 +48,6 @@ node {
 
         }
 
-        stage("release version") {
-            withEnv(['HTTPS_PROXY=http://webproxy-utvikler.nav.no:8088']) {
-                withCredentials([string(credentialsId: 'navikt-ci-oauthtoken', variable: 'token')]) {
-                    sh "${mvn} versions:set -B -DnewVersion=${releaseVersion} -DgenerateBackupPoms=false"
-                    sh "git commit -am \"set version to ${releaseVersion} (from Jenkins pipeline)\""
-                    sh ("git push https://${token}:x-oauth-basic@github.com/navikt/${application}.git")
-                    sh ("git tag -a ${application}-${releaseVersion} -m ${application}-${releaseVersion}")
-                    sh ("git push https://${token}:x-oauth-basic@github.com/navikt/${application}.git --tags")
-                }
-            }
-        }
-
         color = '#BDFFC3'
         GString message = ":heart_eyes_cat: Siste commit på ${application} bygd og deploya OK.\nSiste commit ${changelog}"
         slackSend color: color, channel: '#pam_bygg', message: message, teamDomain: 'nav-it', tokenCredentialId: 'pam-slack'
