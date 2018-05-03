@@ -35,6 +35,11 @@ node {
             committer = sh(script: 'git log -1 --pretty=format:"%an (%ae)"', returnStdout: true).trim()
             committerEmail = sh(script: 'git log -1 --pretty=format:"%ae"', returnStdout: true).trim()
             changelog = sh(script: 'git log `git describe --tags --abbrev=0`..HEAD --oneline', returnStdout: true)
+            sh 'echo "Release version" + ${releaseVersion}'
+            sh 'echo "major version" + ${majorVersion}'
+            sh 'echo "minor version" + ${minorVersion}'
+            sh 'echo "new minor version" + ${newMinorVersion}'
+            sh 'echo "new snapshot version" + ${newSnapshotVersion}'
         }
 
         stage("verify maven versions") {
