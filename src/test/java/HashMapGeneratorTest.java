@@ -22,11 +22,8 @@ class HashMapGeneratorTest {
   @Test
   void hashMapGeneratorShouldReturnCorrectHashMap() {
 
-    String mappingFileLocation = "/styrk_kategori_mapping.csv";
-    StyrkParser styrkParser = new StyrkParser();
-
     Map<String, KategoriKode> map = HashMapGenerator
-        .generateHashMap(mappingFileLocation);
+        .generateHashMap();
 
     assertEquals(testKategoriKode1, map.get("110"));
     assertEquals(testKategoriKode2, map.get("5131"));

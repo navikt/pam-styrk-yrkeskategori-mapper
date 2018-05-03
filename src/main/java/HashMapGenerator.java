@@ -6,7 +6,9 @@ public class HashMapGenerator {
 
   private static StyrkParser styrkParser = new StyrkParser();
 
-  public static Map<String, KategoriKode> generateHashMap(String mappingFileLocation) {
+  public static Map<String, KategoriKode> generateHashMap() {
+
+    String mappingFileLocation = "/styrk_kategori_mapping.csv";
 
     List<KategoriKode> kategoriKoder = styrkParser.parseMappingFile(mappingFileLocation);
 
