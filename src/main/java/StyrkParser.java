@@ -29,7 +29,8 @@ public class StyrkParser {
   private List<CSVRecord> parse(String mappingFileLocation) {
     try (InputStream inputStream = getClass().getResourceAsStream(mappingFileLocation);
         Reader bufferedReader = new InputStreamReader(inputStream);
-        CSVParser parse = CSVParser.parse(bufferedReader, CSVFormat.DEFAULT.withDelimiter(';'))) {
+        CSVParser parse = CSVParser.parse(bufferedReader,
+            CSVFormat.DEFAULT.withFirstRecordAsHeader().withDelimiter(';'))) {
 
       return parse.getRecords();
 

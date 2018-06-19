@@ -29,15 +29,15 @@ class StyrkParserTest {
 
     List<KategoriKode> kategoriKodes = styrkParser.parseMappingFile(mappingFileLocation);
 
-    assertEquals(testKategoriKode1.getStyrkKode(), kategoriKodes.get(2).getStyrkKode());
-    assertEquals(testKategoriKode1.getStyrkKodeTekst(), kategoriKodes.get(2).getStyrkKodeTekst());
-    assertEquals(testKategoriKode1.getKategori1(), kategoriKodes.get(2).getKategori1());
-    assertEquals(testKategoriKode1.getKategori2(), kategoriKodes.get(2).getKategori2());
+    assertEquals(testKategoriKode1.getStyrkKode(), kategoriKodes.get(1).getStyrkKode());
+    assertEquals(testKategoriKode1.getStyrkKodeTekst(), kategoriKodes.get(1).getStyrkKodeTekst());
+    assertEquals(testKategoriKode1.getKategori1(), kategoriKodes.get(1).getKategori1());
+    assertEquals(testKategoriKode1.getKategori2(), kategoriKodes.get(1).getKategori2());
 
-    assertEquals(testKategoriKode2.getStyrkKode(), kategoriKodes.get(340).getStyrkKode());
-    assertEquals(testKategoriKode2.getStyrkKodeTekst(), kategoriKodes.get(340).getStyrkKodeTekst());
-    assertEquals(testKategoriKode2.getKategori1(), kategoriKodes.get(340).getKategori1());
-    assertEquals(testKategoriKode2.getKategori2(), kategoriKodes.get(340).getKategori2());
+    assertEquals(testKategoriKode2.getStyrkKode(), kategoriKodes.get(339).getStyrkKode());
+    assertEquals(testKategoriKode2.getStyrkKodeTekst(), kategoriKodes.get(339).getStyrkKodeTekst());
+    assertEquals(testKategoriKode2.getKategori1(), kategoriKodes.get(339).getKategori1());
+    assertEquals(testKategoriKode2.getKategori2(), kategoriKodes.get(339).getKategori2());
 
   }
 
