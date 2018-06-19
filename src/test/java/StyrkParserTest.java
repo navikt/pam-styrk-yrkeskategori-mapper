@@ -1,54 +1,55 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import domain.CategoryCode;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
 class StyrkParserTest {
 
   @Test
-  void styrkParserSkalReturnererRiktigeKategoriKoder() {
+  void styrkParserShouldReturnCorrectCategoryCodes() {
 
-    KategoriKode testKategoriKode1 = new KategoriKode(
+    CategoryCode testCategoryCode1 = new CategoryCode(
         "110",
         "Offiserer fra fenrik og høyere grad",
         "Sikkerhet og beredskap",
         "Forsvar/militære"
     );
 
-    KategoriKode testKategoriKode2 = new KategoriKode(
+    CategoryCode testCategoryCode2 = new CategoryCode(
         "5131",
         "Servitører",
         "Reiseliv og mat",
         "Restaurant"
     );
 
-    String mappingFileLocation = "/styrk_kategori_mapping.csv";
+    String mappingFileLocation = "/styrk_category_mapping.csv";
 
     StyrkParser styrkParser = new StyrkParser();
 
-    List<KategoriKode> kategoriKodes = styrkParser.parseMappingFile(mappingFileLocation);
+    List<CategoryCode> categoryCodes = styrkParser.parseMappingFile(mappingFileLocation);
 
-    assertEquals(testKategoriKode1.getStyrkKode(), kategoriKodes.get(1).getStyrkKode());
-    assertEquals(testKategoriKode1.getStyrkKodeTekst(), kategoriKodes.get(1).getStyrkKodeTekst());
-    assertEquals(testKategoriKode1.getKategori1(), kategoriKodes.get(1).getKategori1());
-    assertEquals(testKategoriKode1.getKategori2(), kategoriKodes.get(1).getKategori2());
+    assertEquals(testCategoryCode1.getStyrkCode(), categoryCodes.get(1).getStyrkCode());
+    assertEquals(testCategoryCode1.getStyrkDescription(), categoryCodes.get(1).getStyrkDescription());
+    assertEquals(testCategoryCode1.getCategoryLevel1(), categoryCodes.get(1).getCategoryLevel1());
+    assertEquals(testCategoryCode1.getCategoryLevel2(), categoryCodes.get(1).getCategoryLevel2());
 
-    assertEquals(testKategoriKode2.getStyrkKode(), kategoriKodes.get(339).getStyrkKode());
-    assertEquals(testKategoriKode2.getStyrkKodeTekst(), kategoriKodes.get(339).getStyrkKodeTekst());
-    assertEquals(testKategoriKode2.getKategori1(), kategoriKodes.get(339).getKategori1());
-    assertEquals(testKategoriKode2.getKategori2(), kategoriKodes.get(339).getKategori2());
+    assertEquals(testCategoryCode2.getStyrkCode(), categoryCodes.get(339).getStyrkCode());
+    assertEquals(testCategoryCode2.getStyrkDescription(), categoryCodes.get(339).getStyrkDescription());
+    assertEquals(testCategoryCode2.getCategoryLevel1(), categoryCodes.get(339).getCategoryLevel1());
+    assertEquals(testCategoryCode2.getCategoryLevel2(), categoryCodes.get(339).getCategoryLevel2());
 
   }
 
   @Test
-  void styrkParserSkalKasteExceptionOgLoggeFeilmeldingHvisInputfilIkkeFinnes() {
+  void styrkParserShouldThrowExceptionAndLogErrorMessageIfInputFileDoesntExist() {
 
     String INVALID_FILE_LOCATION = "FooBar";
     StyrkParser styrkParser = new StyrkParser();
 
     Exception exception = assertThrows(Exception.class, () -> {
-      List<KategoriKode> kategoriKodes = styrkParser.parseMappingFile(INVALID_FILE_LOCATION);
+      List<CategoryCode> categoryCodes = styrkParser.parseMappingFile(INVALID_FILE_LOCATION);
     });
 
   }

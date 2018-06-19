@@ -1,3 +1,4 @@
+import domain.CategoryCode;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -6,19 +7,19 @@ public class HashMapGenerator {
 
   private static StyrkParser styrkParser = new StyrkParser();
 
-  public static Map<String, KategoriKode> generateHashMap() {
+  public static Map<String, CategoryCode> generateHashMap() {
 
-    String mappingFileLocation = "/styrk_kategori_mapping.csv";
+    String mappingFileLocation = "/styrk_category_mapping.csv";
 
-    List<KategoriKode> kategoriKoder = styrkParser.parseMappingFile(mappingFileLocation);
+    List<CategoryCode> categoryCodes = styrkParser.parseMappingFile(mappingFileLocation);
 
-    Map<String, KategoriKode> styrkKodeMap = new HashMap<>();
+    Map<String, CategoryCode> styrkCodeMap = new HashMap<>();
 
-    for (KategoriKode kode : kategoriKoder) {
-      styrkKodeMap.put(kode.getStyrkKode(), kode);
+    for (CategoryCode code : categoryCodes) {
+      styrkCodeMap.put(code.getStyrkCode(), code);
     }
 
-    return styrkKodeMap;
+    return styrkCodeMap;
   }
 
 }
