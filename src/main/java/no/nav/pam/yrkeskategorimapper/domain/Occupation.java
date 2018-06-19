@@ -1,8 +1,8 @@
-package domain;
+package no.nav.pam.yrkeskategorimapper.domain;
 
 import java.util.Objects;
 
-public class CategoryCode {
+public class Occupation {
 
 
   private String styrkCode;
@@ -13,7 +13,7 @@ public class CategoryCode {
 
   private String categoryLevel2;
 
-  public CategoryCode(String styrkCode, String styrkDescription, String categoryLevel1,
+  public Occupation(String styrkCode, String styrkDescription, String categoryLevel1,
       String categoryLevel2) {
     this.styrkCode = styrkCode;
     this.styrkDescription = styrkDescription;
@@ -45,7 +45,7 @@ public class CategoryCode {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    CategoryCode that = (CategoryCode) o;
+    Occupation that = (Occupation) o;
     return Objects.equals(styrkCode, that.styrkCode) &&
         Objects.equals(styrkDescription, that.styrkDescription) &&
         Objects.equals(categoryLevel1, that.categoryLevel1) &&

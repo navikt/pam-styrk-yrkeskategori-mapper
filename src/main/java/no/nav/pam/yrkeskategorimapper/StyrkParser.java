@@ -1,4 +1,6 @@
-import domain.CategoryCode;
+package no.nav.pam.yrkeskategorimapper;
+
+import no.nav.pam.yrkeskategorimapper.domain.Occupation;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
@@ -14,7 +16,7 @@ public class StyrkParser {
 
   private final static Logger LOGGER = Logger.getLogger(StyrkParser.class.getName());
 
-  public List<CategoryCode> parseMappingFile(String mappingFileLocation) {
+  public List<Occupation> parseMappingFile(String mappingFileLocation) {
 
     List<CSVRecord> parseResult = parse(mappingFileLocation);
 
@@ -22,8 +24,8 @@ public class StyrkParser {
         Collectors.toList());
   }
 
-  private CategoryCode mapToCategoryCodeAndTrim(CSVRecord record) {
-    return new CategoryCode(record.get(0).trim(), record.get(1).trim(), record.get(2).trim(),
+  private Occupation mapToCategoryCodeAndTrim(CSVRecord record) {
+    return new Occupation(record.get(0).trim(), record.get(1).trim(), record.get(2).trim(),
         record.get(3).trim());
   }
 
