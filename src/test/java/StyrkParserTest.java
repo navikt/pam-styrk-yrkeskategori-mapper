@@ -19,8 +19,8 @@ class StyrkParserTest {
     KategoriKode testKategoriKode2 = new KategoriKode(
         "5131",
         "Servitører",
-        "Reiseliv, mat og overnatting",
-        "Restaurant og forpleining"
+        "Reiseliv og mat",
+        "Restaurant"
     );
 
     String mappingFileLocation = "/styrk_kategori_mapping.csv";
@@ -29,20 +29,20 @@ class StyrkParserTest {
 
     List<KategoriKode> kategoriKodes = styrkParser.parseMappingFile(mappingFileLocation);
 
-    assertEquals(testKategoriKode1.getStyrkKode(), kategoriKodes.get(1).getStyrkKode());
-    assertEquals(testKategoriKode1.getStyrkKodeTekst(), kategoriKodes.get(1).getStyrkKodeTekst());
-    assertEquals(testKategoriKode1.getKategori1(), kategoriKodes.get(1).getKategori1());
-    assertEquals(testKategoriKode1.getKategori2(), kategoriKodes.get(1).getKategori2());
+    assertEquals(testKategoriKode1.getStyrkKode(), kategoriKodes.get(2).getStyrkKode());
+    assertEquals(testKategoriKode1.getStyrkKodeTekst(), kategoriKodes.get(2).getStyrkKodeTekst());
+    assertEquals(testKategoriKode1.getKategori1(), kategoriKodes.get(2).getKategori1());
+    assertEquals(testKategoriKode1.getKategori2(), kategoriKodes.get(2).getKategori2());
 
-    assertEquals(testKategoriKode2.getStyrkKode(), kategoriKodes.get(8).getStyrkKode());
-    assertEquals(testKategoriKode2.getStyrkKodeTekst(), kategoriKodes.get(8).getStyrkKodeTekst());
-    assertEquals(testKategoriKode2.getKategori1(), kategoriKodes.get(8).getKategori1());
-    assertEquals(testKategoriKode2.getKategori2(), kategoriKodes.get(8).getKategori2());
+    assertEquals(testKategoriKode2.getStyrkKode(), kategoriKodes.get(340).getStyrkKode());
+    assertEquals(testKategoriKode2.getStyrkKodeTekst(), kategoriKodes.get(340).getStyrkKodeTekst());
+    assertEquals(testKategoriKode2.getKategori1(), kategoriKodes.get(340).getKategori1());
+    assertEquals(testKategoriKode2.getKategori2(), kategoriKodes.get(340).getKategori2());
 
   }
 
   @Test
-  void styrkPareserSkalKasteExceptionOgLoggeFeilmelding() {
+  void styrkParserSkalKasteExceptionOgLoggeFeilmeldingHvisInputfilIkkeFinnes() {
 
     String INVALID_FILE_LOCATION = "FooBar";
     StyrkParser styrkParser = new StyrkParser();

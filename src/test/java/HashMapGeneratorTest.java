@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Map;
 import org.junit.jupiter.api.Test;
@@ -15,8 +15,8 @@ class HashMapGeneratorTest {
   private KategoriKode testKategoriKode2 = new KategoriKode(
       "5131",
       "Servitører",
-      "Reiseliv, mat og overnatting",
-      "Restaurant og forpleining"
+      "Reiseliv og mat",
+      "Restaurant"
   );
 
   @Test
@@ -25,8 +25,8 @@ class HashMapGeneratorTest {
     Map<String, KategoriKode> map = HashMapGenerator
         .generateHashMap();
 
-    assertEquals(testKategoriKode1, map.get("110"));
-    assertEquals(testKategoriKode2, map.get("5131"));
+    assertTrue(testKategoriKode1.equals(map.get("110")));
+    assertTrue(testKategoriKode2.equals(map.get("5131")));
   }
 
 }
