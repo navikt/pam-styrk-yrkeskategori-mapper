@@ -20,22 +20,13 @@ public class StyrkParserTest {
         "Forsvar/militære"
     );
 
-    Occupation testOccupation2 = new Occupation(
-        "5131",
-        "Servitører",
-        "Reiseliv og mat",
-        "Restaurant"
-    );
-
     StyrkParser styrkParser = StyrkParser.newInstance();
 
     List<Occupation> occupationList = styrkParser.getOccupationsFromFile();
 
-    int testOccupation1Index = 1;
-    int testOccupation2Index = 339;
+    int TEST_OCCUPATION_1_INDEX = 1;
 
-    assertEquals(testOccupation1, occupationList.get(testOccupation1Index));
-    assertEquals(testOccupation2, occupationList.get(testOccupation2Index));
+    assertEquals(testOccupation1, occupationList.get(TEST_OCCUPATION_1_INDEX));
   }
 
 }

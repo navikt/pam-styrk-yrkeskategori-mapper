@@ -33,7 +33,9 @@ public class StyrkCodeConverter {
     Map<String, Occupation> occupationMap = new HashMap<>();
 
     for (Occupation occupation : occupationList) {
-      occupationMap.put(occupation.getStyrkCode(), occupation);
+      if(!occupationMap.containsKey(occupation.getStyrkCode())) {
+        occupationMap.put(occupation.getStyrkCode(), occupation);
+      }
     }
 
     return occupationMap;
