@@ -2,6 +2,7 @@ package no.nav.pam.yrkeskategorimapper;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.IOException;
 import no.nav.pam.yrkeskategorimapper.domain.Occupation;
 import java.util.List;
 import org.junit.Test;
@@ -10,7 +11,7 @@ import org.junit.Test;
 public class StyrkParserTest {
 
   @Test
-  public void styrkParserShouldReturnCorrectCategoryCodes() {
+  public void styrkParserShouldReturnCorrectCategoryCodes() throws IOException {
 
     Occupation testOccupation1 = new Occupation(
         "110",
@@ -26,33 +27,15 @@ public class StyrkParserTest {
         "Restaurant"
     );
 
-    String mappingFileLocation = "/styrk_category_mapping.csv";
+    StyrkParser styrkParser = StyrkParser.newInstance();
 
-    no.nav.pam.yrkeskategorimapper.StyrkParser styrkParser = new no.nav.pam.yrkeskategorimapper.StyrkParser();
+    List<Occupation> occupationList = styrkParser.getOccupationsFromFile();
 
-    List<Occupation> occupations = styrkParser.parseMappingFile(mappingFileLocation);
+    int testOccupation1Index = 1;
+    int testOccupation2Index = 339;
 
-    assertEquals(testOccupation1.getStyrkCode(), occupations.get(1).getStyrkCode());
-    assertEquals(testOccupation1.getStyrkDescription(), occupations.get(1).getStyrkDescription());
-    assertEquals(testOccupation1.getCategoryLevel1(), occupations.get(1).getCategoryLevel1());
-    assertEquals(testOccupation1.getCategoryLevel2(), occupations.get(1).getCategoryLevel2());
-
-    assertEquals(testOccupation2.getStyrkCode(), occupations.get(339).getStyrkCode());
-    assertEquals(testOccupation2.getStyrkDescription(), occupations.get(339).getStyrkDescription());
-    assertEquals(testOccupation2.getCategoryLevel1(), occupations.get(339).getCategoryLevel1());
-    assertEquals(testOccupation2.getCategoryLevel2(), occupations.get(339).getCategoryLevel2());
-
-  }
-
-  @Test(expected = NullPointerException.class)
-  public void styrkParserShouldThrowExceptionAndLogErrorMessageIfInputFileDoesntExist() {
-
-    String INVALID_FILE_LOCATION = "FooBar";
-    no.nav.pam.yrkeskategorimapper.StyrkParser styrkParser = new no.nav.pam.yrkeskategorimapper.StyrkParser();
-
-    styrkParser.parseMappingFile(INVALID_FILE_LOCATION);
-
-
+    assertEquals(testOccupation1, occupationList.get(testOccupation1Index));
+    assertEquals(testOccupation2, occupationList.get(testOccupation2Index));
   }
 
 }
