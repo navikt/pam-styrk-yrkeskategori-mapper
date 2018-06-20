@@ -13,15 +13,15 @@ public class HashMapGenerator {
 
     String mappingFileLocation = "/styrk_category_mapping.csv";
 
-    List<Occupation> occupations = styrkParser.parseMappingFile(mappingFileLocation);
+    List<Occupation> occupationList = styrkParser.parseMappingFile(mappingFileLocation);
 
-    Map<String, Occupation> styrkCodeMap = new HashMap<>();
+    Map<String, Occupation> occupationMap = new HashMap<>();
 
-    for (Occupation code : occupations) {
-      styrkCodeMap.put(code.getStyrkCode(), code);
+    for (Occupation occupation : occupationList) {
+      occupationMap.put(occupation.getStyrkCode(), occupation);
     }
 
-    return styrkCodeMap;
+    return occupationMap;
   }
 
 }
