@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import no.nav.pam.yrkeskategorimapper.domain.Occupation;
 
 public class StyrkCodeConverter {
@@ -20,8 +21,13 @@ public class StyrkCodeConverter {
     this.occupationMap = occupationMap;
   }
 
-  public Occupation lookup(String styrkCode){
-    return occupationMap.get(styrkCode);
+  public Optional<Occupation> lookup(String styrkCode){
+
+    if(styrkCode.length() > 4) {
+      String fourDigitStyrkCode = styrkCode.substring(0, 4);
+      return Optional.ofNullable(occupationMap.get(fourDigitStyrkCode));
+    }
+    return Optional.ofNullable(occupationMap.get(styrkCode));
   }
 
   private static Map<String, Occupation> generateHashMap() throws IOException {
