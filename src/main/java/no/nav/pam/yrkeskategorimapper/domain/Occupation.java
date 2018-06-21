@@ -4,14 +4,13 @@ import java.util.Objects;
 
 public class Occupation {
 
+  private final String styrkCode;
 
-  private String styrkCode;
+  private final String styrkDescription;
 
-  private String styrkDescription;
+  private final String categoryLevel1;
 
-  private String categoryLevel1;
-
-  private String categoryLevel2;
+  private final String categoryLevel2;
 
   public Occupation(String styrkCode, String styrkDescription, String categoryLevel1,
       String categoryLevel2) {
