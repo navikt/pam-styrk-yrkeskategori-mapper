@@ -109,4 +109,12 @@ public class StyrkCodeConverterTest {
 
         assertEquals(optionalTestOccupationZero, result);
     }
+
+    @Test(expected = NullPointerException.class)
+    public void styrkCodeConverterShouldThrowExceptionForNullInput()
+            throws IOException {
+        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
+
+        styrkCodeConverter.lookup(null);
+    }
 }

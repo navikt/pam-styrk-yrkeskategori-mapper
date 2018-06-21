@@ -18,8 +18,8 @@ public class StyrkCodeConverter {
 
     /**
      * Construct a new instance of mapper.
-     * @return
-     * @throws IOException
+     * @return Returns mapper object used for conversion between Styrk Code and Occupation Categories 1 and 2 (Yrkeskategoritre 1 og 2)
+     * @throws IOException Parser throws IOException on error.
      */
     public static StyrkCodeConverter newInstance() throws IOException {
         Map<String, Occupation> occupationMap = StyrkCodeConverter.generateHashMap();
@@ -33,12 +33,12 @@ public class StyrkCodeConverter {
     /**
      * Lookup STYRK code, 1 to 6 digits.
      *
-     * <p>If more than 4 digits are provided, the excess digits are discarded before looking up the code.</p>
+     * <p>Input Styrk Code. Styrk Code will be converted to Occupation domain object and returned as Optional</p>
+     * Occupation domain object represents an occupation with occupation category levels 1 and 2 (Yrkeskategori)
+     * <p>Only 4 digit Styrk codes are accepted. If more than 4 digits are provided, the excess digits are discarded before conversion.</p>
      *
-     * TODO complete me
-     *
-     * @param styrkCode
-     * @return
+     * @param styrkCode The Styrk Code to be converted to Occupation Category level 1 and 2 (Yrkeskategori)
+     * @return Optional of requested Occupation domain object
      * @throws NullPointerException if provided string is {@code null}
      */
     public Optional<Occupation> lookup(String styrkCode) {
@@ -54,7 +54,7 @@ public class StyrkCodeConverter {
         try (InputStream is = StyrkCodeConverter.class.getResourceAsStream(STYRK_MAPPING_RESOURCE)) {
             // If duplicate STYRK code keys, just select one of them
             return StyrkParser.parse(is).stream().collect(
-                    Collectors.toMap(o -> o.getStyrkCode(), Function.identity(), (o1, o2) -> o1));
+                    Collectors.toMap(Occupation::getStyrkCode, Function.identity(), (o1, o2) -> o1));
         }
     }
 

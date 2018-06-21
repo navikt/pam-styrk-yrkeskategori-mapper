@@ -2,6 +2,9 @@ package no.nav.pam.yrkeskategorimapper.domain;
 
 import java.util.Objects;
 
+/**
+ * Domain object represents an occupation with styrk code, styrk description, category levels 1 and 2 (Yrksekategoritre nivå 1 og 2).
+ */
 public class Occupation {
 
     private final String styrkCode;
