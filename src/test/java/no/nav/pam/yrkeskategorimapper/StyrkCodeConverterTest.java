@@ -1,54 +1,51 @@
 package no.nav.pam.yrkeskategorimapper;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import no.nav.pam.yrkeskategorimapper.domain.Occupation;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Optional;
 
-import no.nav.pam.yrkeskategorimapper.domain.Occupation;
-import org.junit.Test;
+import static org.junit.Assert.*;
 
-@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public class StyrkCodeConverterTest {
 
-    private Occupation testOccupation1 = new Occupation(
+    private final Occupation testOccupation1 = new Occupation(
             "110",
             "Offiserer fra fenrik og høyere grad",
             "Sikkerhet og beredskap",
             "Forsvar/militære"
     );
 
-    private Optional optionalTestOccupation1 = Optional.of(testOccupation1);
-
-    private Occupation testOccupation2 = new Occupation(
+    private final Occupation testOccupation2 = new Occupation(
             "5131",
             "Servitører",
             "Reiseliv og mat",
             "Restaurant"
     );
 
-    private Optional optionalTestOccupation2 = Optional.of(testOccupation2);
+    private final Occupation testOccupation3 = new Occupation(
+            "2342",
+            "Førskolelærere",
+            "Utdanning",
+            "Barnehage og grunnskole"
+    );
 
-    private Occupation testOccupationZero = new Occupation(
+    private final Occupation testOccupationZero = new Occupation(
             "0",
             "Ikke konvertert",
             "Uoppgitt/ ikke identifiserbare",
             "Ikke identifiserbare"
     );
 
-    private Optional optionalTestOccupationZero = Optional.of(testOccupationZero);
-
-
     @Test
     public void styrkCodeConverterShouldReturnCorrectHashMap() throws IOException {
 
         StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
-        assertTrue(optionalTestOccupation1.equals(styrkCodeConverter.lookup("110")));
-        assertTrue(optionalTestOccupation2.equals(styrkCodeConverter.lookup("5131")));
+        assertTrue(Optional.of(testOccupation1).equals(styrkCodeConverter.lookup("110")));
+        assertTrue(Optional.of(testOccupation2).equals(styrkCodeConverter.lookup("5131")));
+        assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookup("2342.03")));
     }
 
     @Test
@@ -82,7 +79,7 @@ public class StyrkCodeConverterTest {
 
         Optional<Occupation> result = styrkCodeConverter.lookup(SIX_DIGIT_STYRK_CODE);
 
-        assertEquals(optionalTestOccupation2, result);
+        assertEquals(Optional.of(testOccupation2), result);
     }
 
 
@@ -95,7 +92,7 @@ public class StyrkCodeConverterTest {
 
         Optional<Occupation> result = styrkCodeConverter.lookup(THREE_DIGIT_STYRK_CODE);
 
-        assertEquals(optionalTestOccupation1, result);
+        assertEquals(Optional.of(testOccupation1), result);
     }
 
     @Test
@@ -107,7 +104,7 @@ public class StyrkCodeConverterTest {
 
         Optional<Occupation> result = styrkCodeConverter.lookup(STYRK_CODE_ZERO);
 
-        assertEquals(optionalTestOccupationZero, result);
+        assertEquals(Optional.of(testOccupationZero), result);
     }
 
     @Test(expected = NullPointerException.class)
