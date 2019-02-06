@@ -77,8 +77,8 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2330;Lektorer mv. i videregående skole;Utdanning ;Videregående skole
 2341;Grunnskolelærere;Utdanning ;Barnehage og grunnskole
 2342;Førskolelærere;Utdanning ;Barnehage og grunnskole
-2351;Spesialister i pedagogikk;Utdanning;Instruktører og pedagoger
-2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører og pedagoger
+2351;Spesialister i pedagogikk;Utdanning;Instruktører  og pedagoger
+2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører  og pedagoger
 2353;Andre språklærere;Utdanning ;Barnehage og grunnskole
 2354;Andre musikklærere;Utdanning ;Barnehage og grunnskole
 2355;Andre lærere i estetiske fag;Utdanning ;Barnehage og grunnskole
@@ -118,7 +118,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk og litteratur
 2642;Journalister;Kultur og kreative yrker;Journalistikk og litteratur
 2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
-2651;Skulptører, kunstmalere og andre billedkunstnere;Kultur og kreative yrker;Kunst og kunsthåndverk
+2651;Skulptører, kunstmalere og andre billedkunstnere;Kultur og kreative yrker;Kunst  og kunsthåndverk
 2652;Dirigenter, komponister, musikere og sangere;Kultur og kreative yrker;Musikk/lyd, foto og video
 2653;Koreografer og dansere;Kultur og kreative yrker;Underholdning, scene og teater
 2654;Regissører;Kultur og kreative yrker;Underholdning, scene og teater
@@ -241,7 +241,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 5161;Astrologer mv.;Salg og service;Personlig tjenesteyting
 5163;Begravelsesbyrå- og krematoriemedarbeidere;Håndverkere;Øvrige håndverksyrker
 5164;Dyrepassere og -trenere mv.;Natur og miljø ;Veterinærer og dyrepleiere
-5165;Kjøreskolelærere;Utdanning ;Instruktører og pedagoger
+5165;Kjøreskolelærere;Utdanning ;Instruktører  og pedagoger
 5169;Andre personlige tjenesteytere;Salg og service;Personlig tjenesteyting
 5211;Torghandlere mv.;Salg og service;Salg, butikk- og varehandel
 5212;Gateselger av mat;Salg og service;Salg, butikk- og varehandel
@@ -309,12 +309,12 @@ Styrk code;Styrk description;Category level 1;Category level 2
 7311;Presisjonsinstrumentmakere og -reparatører;Håndverkere;Øvrige håndverksyrker
 7312;Musikkinstrumentmakere og -stemmere;Håndverkere;Øvrige håndverksyrker
 7313;Gull- og sølvsmeder, gravører mv.;Håndverkere;Øvrige håndverksyrker
-7314;Keramikere mv.;Kultur og kreative yrker;Kunst og kunsthåndverk
-7315;Glasshåndverkere;Kultur og kreative yrker;Kunst og kunsthåndverk
-7316;Dekormalere mv;Kultur og kreative yrker;Kunst og kunsthåndverk
-7317;Kunsthåndverkere i tre mv.;Kultur og kreative yrker;Kunst og kunsthåndverk
-7318;Vevere, strikkere mv. (innen husflidsproduksjon);Kultur og kreative yrker;Kunst og kunsthåndverk
-7319;Andre kunsthåndverkere;Kultur og kreative yrker;Kunst og kunsthåndverk
+7314;Keramikere mv.;Kultur og kreative yrker;Kunst  og kunsthåndverk
+7315;Glasshåndverkere;Kultur og kreative yrker;Kunst  og kunsthåndverk
+7316;Dekormalere mv;Kultur og kreative yrker;Kunst  og kunsthåndverk
+7317;Kunsthåndverkere i tre mv.;Kultur og kreative yrker;Kunst  og kunsthåndverk
+7318;Vevere, strikkere mv. (innen husflidsproduksjon);Kultur og kreative yrker;Kunst  og kunsthåndverk
+7319;Andre kunsthåndverkere;Kultur og kreative yrker;Kunst  og kunsthåndverk
 7321;Førtrykkere;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
 7322;Trykkere;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
 7323;Innbindere mv.;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
