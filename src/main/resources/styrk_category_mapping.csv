@@ -6,100 +6,56 @@ Styrk code;Styrk description;Category level 1;Category level 2
 1111;Politikere;Kontor og økonomi;Organisasjonsarbeid og politikk
 1112;Toppledere i offentlig administrasjon;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 1114;Toppledere i interesseorganisasjoner;Kontor og økonomi;Organisasjonsarbeid og politikk
-1114;Toppledere i interesseorganisasjoner;Kontor og økonomi;Organisasjonsarbeid og politikk
 1120;Administrerende direktører;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 1211;Finans- og økonomisjefer;Kontor og økonomi;Bank finans forsikring
-1211;Finans- og økonomisjefer;Kontor og økonomi;Bank finans forsikring
-1212;Personalsjefer;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 1212;Personalsjefer;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 1213;Strategi- og planleggingssjefer;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 1219;Andre administrative ledere;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 1221;Salgs- og markedssjefer;Salg og service;Salg, butikk- og varehandel
 1222;PR- og informasjonssjefer;Salg og service;Markedsføring og reklame
-1222;PR- og informasjonssjefer;Salg og service;Markedsføring og reklame
 1223;Forsknings- og utviklingsledere;Utdanning ;Forskningsarbeid
 1311;Ledere innen skogbruk, gartnerier mv.;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
-1311;Ledere innen skogbruk, gartnerier mv.;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
-1312;Ledere innen akvakultur mv.;Natur og miljø;Fiske, fangst og oppdrett
 1312;Ledere innen akvakultur mv.;Natur og miljø;Fiske, fangst og oppdrett
 1321;Ledere av industriproduksjon mv.;Industri og produksjon;Arbeidsleder, industri
-1321;Ledere av industriproduksjon mv.;Industri og produksjon;Arbeidsleder, industri
-1322;Ledere av olje- og gassutvinning mv;Industri og produksjon;Olje, gass og bergverk
 1322;Ledere av olje- og gassutvinning mv;Industri og produksjon;Olje, gass og bergverk
 1323;Ledere av bygge- og anleggsvirksomhet;Bygg og anlegg;Arbeidsleder, bygg og anlegg
-1323;Ledere av bygge- og anleggsvirksomhet;Bygg og anlegg;Arbeidsleder, bygg og anlegg
-1324;Ledere av logistikk og transport mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
 1324;Ledere av logistikk og transport mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
 1330;Ledere av IKT-enheter;IT;Ledere av IKT-enheter
-1330;Ledere av IKT-enheter;IT;Ledere av IKT-enheter
 1341;Ledere av omsorgstjenester for barn;Helse og sosial;Leder innenfor helsetjenester
-1341;Ledere av omsorgstjenester for barn;Helse og sosial;Leder innenfor helsetjenester
-1342;Ledere av helsetjenester;Helse og sosial;Leder innenfor helsetjenester
 1342;Ledere av helsetjenester;Helse og sosial;Leder innenfor helsetjenester
 1343;Ledere av eldreomsorg;Helse og sosial;Leder innenfor helsetjenester
 1344;Ledere av sosialomsorg;Helse og sosial;Leder innenfor helsetjenester
 1345;Ledere av utdanning og undervisning;Utdanning ;Ledere av undervisning og utdanning
-1345;Ledere av utdanning og undervisning;Utdanning ;Ledere av undervisning og utdanning
-1345;Ledere av utdanning og undervisning;Utdanning ;Ledere av undervisning og utdanning
-1345;Ledere av utdanning og undervisning;Utdanning ;Ledere av undervisning og utdanning
-1346;Ledere av forsikring og finansvirksomhet;Kontor og økonomi;Bank finans forsikring
 1346;Ledere av forsikring og finansvirksomhet;Kontor og økonomi;Bank finans forsikring
 1349;Andre ledere av produksjon og tjenesteyting;Salg og service;Personlig tjenesteyting
 1411;Hotellsjefer;Reiseliv og mat;Reiseliv, hotell og overnatting
 1412;Restaurantsjefer;Reiseliv og mat;Restaurant
-1412;Restaurantsjefer;Reiseliv og mat;Restaurant
-1412;Restaurantsjefer;Reiseliv og mat;Restaurant
 1420;Varehandelssjefer;Salg og service;Salg, butikk- og varehandel
-1420;Varehandelssjefer;Salg og service;Salg, butikk- og varehandel
-1431;Sports-, rekreasjons- og kultursenterledere;Kultur og kreative yrker;Fritid
 1431;Sports-, rekreasjons- og kultursenterledere;Kultur og kreative yrker;Fritid
 1439;Andre daglige ledere i tjenesteytende virksomheter;Salg og service;Personlig tjenesteyting
 2111;Fysikere og astronomer;Industri og produksjon;Fysikk, kjemi og metallurgi
-2111;Fysikere og astronomer;Industri og produksjon;Fysikk, kjemi og metallurgi
-2112;Meteorologer;Natur og miljø ;Naturvitenskapelige yrker
 2112;Meteorologer;Natur og miljø ;Naturvitenskapelige yrker
 2113;Kjemikere;Industri og produksjon;Fysikk, kjemi og metallurgi
-2113;Kjemikere;Industri og produksjon;Fysikk, kjemi og metallurgi
 2114;Geologer og geofysikere;Natur og miljø ;Naturvitenskapelige yrker
-2114;Geologer og geofysikere;Natur og miljø ;Naturvitenskapelige yrker
-2114;Geologer og geofysikere;Natur og miljø ;Naturvitenskapelige yrker
-2114;Geologer og geofysikere;Natur og miljø ;Naturvitenskapelige yrker
-2120;Matematikere, statistikere mv.;Kontor og økonomi;Økonomi, statistikk og regnskap
-2120;Matematikere, statistikere mv.;Kontor og økonomi;Økonomi, statistikk og regnskap
 2120;Matematikere, statistikere mv.;Kontor og økonomi;Økonomi, statistikk og regnskap
 2131;Biologer, botanikere, zoologer mv.;Natur og miljø ;Biologer, zoologer, botanikere
 2132;Sivilagronomer mv.;Natur og miljø ;Jordbruk og dyrehold
-2132;Sivilagronomer mv.;Natur og miljø ;Jordbruk og dyrehold
-2132;Sivilagronomer mv.;Natur og miljø ;Jordbruk og dyrehold
 2133;Miljøvernrådgivere;Natur og miljø ;Miljøvern
-2133;Miljøvernrådgivere;Natur og miljø ;Miljøvern
-2141;Sivilingeniører (industri og produksjon);Industri og produksjon;Fysikk, kjemi og metallurgi
 2141;Sivilingeniører (industri og produksjon);Industri og produksjon;Fysikk, kjemi og metallurgi
 2142;Sivilingeniører (bygg og anlegg);Bygg og anlegg;Ingeniør bygg
 2143;Sivilingeniører (miljøteknikk);Bygg og anlegg;Ingeniør miljøteknikk
-2143;Sivilingeniører (miljøteknikk);Bygg og anlegg;Ingeniør miljøteknikk
-2144;Sivilingeniører (maskin- og marinteknikk);Industri og produksjon;Maskinteknikk og mekanikk
 2144;Sivilingeniører (maskin- og marinteknikk);Industri og produksjon;Maskinteknikk og mekanikk
 2145;Sivilingeniører (kjemi);Industri og produksjon;Fysikk, kjemi og metallurgi
 2146;Sivilingeniører (geofag, petroleums-teknologi, metallurgi mv.);Industri og produksjon;Olje, gass og bergverk
-2146;Sivilingeniører (geofag, petroleums-teknologi, metallurgi mv.);Industri og produksjon;Olje, gass og bergverk
-2149;Andre sivilingeniører( unntatt elektroteknologi);Utdanning;Forskningsarbeid
 2149;Andre sivilingeniører( unntatt elektroteknologi);Utdanning;Forskningsarbeid
 2151;Sivilingeniører (elkraftteknikk);Industri og produksjon;Elektro/elektronikk
 2152;Sivilingeniører (elektronikk);Industri og produksjon;Elektro/elektronikk
-2152;Sivilingeniører (elektronikk);Industri og produksjon;Elektro/elektronikk
-2153;Sivilingeniører (telekommunikasjon);Industri og produksjon;Elektro/elektronikk
 2153;Sivilingeniører (telekommunikasjon);Industri og produksjon;Elektro/elektronikk
 2161;Sivilarkitekter;Bygg og anlegg;Arealplanlegging og arkitektur
-2161;Sivilarkitekter;Bygg og anlegg;Arealplanlegging og arkitektur
-2162;Landskapsarkitekter;Bygg og anlegg;Arealplanlegging og arkitektur
 2162;Landskapsarkitekter;Bygg og anlegg;Arealplanlegging og arkitektur
 2163;Produkt- og klesdesignere;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
-2163;Produkt- og klesdesignere;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
-2164;Arealplanleggere;Bygg og anlegg;Arealplanlegging og arkitektur
 2164;Arealplanleggere;Bygg og anlegg;Arealplanlegging og arkitektur
 2165;Landmålere, kartografer mv.;Bygg og anlegg;Arealplanlegging og arkitektur
-2166;Grafiske og multimediadesignere;IT;Interaksjonsdesign
 2166;Grafiske og multimediadesignere;IT;Interaksjonsdesign
 2211;Allmennpraktiserende leger;Helse og sosial;Leger, psykologer og terapeuter
 2212;Legespesialister;Helse og sosial;Leger, psykologer og terapeuter
@@ -118,34 +74,25 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2269;Kiropraktorer mv.;Helse og sosial;Leger, psykologer og terapeuter
 2310;Universitets- og høyskolelektorer/-lærere;Utdanning ;Universitet og høyskole
 2320;Yrkesfaglærere;Utdanning ;Videregående skole
-2320;Yrkesfaglærere;Utdanning ;Videregående skole
-2320;Yrkesfaglærere;Utdanning ;Videregående skole
 2330;Lektorer mv. i videregående skole;Utdanning ;Videregående skole
 2341;Grunnskolelærere;Utdanning ;Barnehage og grunnskole
 2342;Førskolelærere;Utdanning ;Barnehage og grunnskole
 2351;Spesialister i pedagogikk;Utdanning;Instruktører  og pedagoger
 2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører  og pedagoger
-2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører  og pedagoger
 2353;Andre språklærere;Utdanning ;Barnehage og grunnskole
 2354;Andre musikklærere;Utdanning ;Barnehage og grunnskole
-2354;Andre musikklærere;Utdanning ;Barnehage og grunnskole
-2354;Andre musikklærere;Utdanning ;Barnehage og grunnskole
 2355;Andre lærere i estetiske fag;Utdanning ;Barnehage og grunnskole
-2355;Andre lærere i estetiske fag;Utdanning ;Barnehage og grunnskole
-2356;Andre IKT-lærere;Utdanning ;Barnehage og grunnskole
 2356;Andre IKT-lærere;Utdanning ;Barnehage og grunnskole
 2359;Andre lærere;Utdanning ;Barnehage og grunnskole
 2411;Revisorer og regnskapsrådgivere;Kontor og økonomi;Økonomi, statistikk og regnskap
 2412;Finans- og investeringsrådgivere;Kontor og økonomi;Bank finans forsikring
 2413;Finansanalytikere;Kontor og økonomi;Bank finans forsikring
 2421;Organisasjonsrådgivere;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
-2421;Organisasjonsrådgivere;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 2422;Høyere saksbehandlere i offentlig og privat virksomhet;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 2423;Personal- og karriererådgivere;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 2424;Rådgivere innen kompetanseutvikling;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 2431;Reklame- og markedsføringsrådgivere;Salg og service;Markedsføring og reklame
 2432;Informasjonsrådgivere;Kultur og kreative yrker;Journalistikk og litteratur
-2433;Salgskonsulenter innen tekniske og medisinske produkter;Salg og service;Salg, butikk- og varehandel
 2433;Salgskonsulenter innen tekniske og medisinske produkter;Salg og service;Salg, butikk- og varehandel
 2434;Salgskonsulenter innen IKT-produkter;Salg og service;Salg, butikk- og varehandel
 2511;Systemanalytikere/-arkitekter;IT;Utvikling
@@ -161,30 +108,20 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2612;Dommere;Kontor og økonomi;Juridisk arbeid
 2619;Andre juridiske yrker;Kontor og økonomi;Juridisk arbeid
 2621;Arkivarer og kuratorer;Kultur og kreative yrker;Museum, bibliotek
-2621;Arkivarer og kuratorer;Kultur og kreative yrker;Museum, bibliotek
 2622;Bibliotekarer og andre informasjonsarbeidere;Kultur og kreative yrker;Museum, bibliotek
 2631;Rådgivere/forskere, samfunnsøkonomi;Utdanning ;Forskningsarbeid
 2632;Rådgivere/forskere, samfunnsvitenskap;Utdanning ;Forskningsarbeid
-2632;Rådgivere/forskere, samfunnsvitenskap;Utdanning ;Forskningsarbeid
 2633;Rådgivere/forskere, humanistiske fag;Utdanning ;Forskningsarbeid
-2633;Rådgivere/forskere, humanistiske fag;Utdanning ;Forskningsarbeid
-2634;Psykologer;Helse og sosial;Leger, psykologer og terapeuter
 2634;Psykologer;Helse og sosial;Leger, psykologer og terapeuter
 2635;Rådgivere innen sosiale fagfelt;Helse og sosial;Sosial
 2636;Geistlige yrker;Kultur og kreative yrker;Religiøst arbeid
 2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk og litteratur
-2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk og litteratur
 2642;Journalister;Kultur og kreative yrker;Journalistikk og litteratur
-2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
-2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
-2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
 2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
 2651;Skulptører, kunstmalere og andre billedkunstnere;Kultur og kreative yrker;Kunst  og kunsthåndverk
 2652;Dirigenter, komponister, musikere og sangere;Kultur og kreative yrker;Musikk/lyd, foto og video
-2652;Dirigenter, komponister, musikere og sangere;Kultur og kreative yrker;Musikk/lyd, foto og video
 2653;Koreografer og dansere;Kultur og kreative yrker;Underholdning, scene og teater
 2654;Regissører;Kultur og kreative yrker;Underholdning, scene og teater
-2655;Skuespillere;Kultur og kreative yrker;Underholdning, scene og teater
 2655;Skuespillere;Kultur og kreative yrker;Underholdning, scene og teater
 2656;Programledere i TV og radio;Kultur og kreative yrker;Underholdning, scene og teater
 2659;Andre utøvende kunstneriske yrker;Kultur og kreative yrker;Underholdning, scene og teater
@@ -194,110 +131,75 @@ Styrk code;Styrk description;Category level 1;Category level 2
 3115;Maskiningeniører;Industri og produksjon;Maskinteknikk og mekanikk
 3116;Kjemiingeniører;Industri og produksjon;Fysikk, kjemi og metallurgi
 3117;Ingeniører innen petroleum, bergverk og metallurgi;Industri og produksjon;Olje, gass og bergverk
-3117;Ingeniører innen petroleum, bergverk og metallurgi;Industri og produksjon;Olje, gass og bergverk
 3118;Tekniske tegnere;Industri og produksjon;Maskinteknikk og mekanikk
-3118;Tekniske tegnere;Industri og produksjon;Maskinteknikk og mekanikk
-3119;Andre ingeniører;Utdanning;Forskningsarbeid
 3119;Andre ingeniører;Utdanning;Forskningsarbeid
 3121;Arbeidsleder, bergfag, oljevirksomhet;Industri og produksjon;Olje, gass og bergverk
 3122;Arbeidsleder, industri;Industri og produksjon;Arbeidsleder, industri
-3122;Arbeidsleder, industri;Industri og produksjon;Arbeidsleder, industri
-3123;Arbeidsleder, bygg og anlegg;Bygg og anlegg;Arbeidsleder, bygg og anlegg
 3123;Arbeidsleder, bygg og anlegg;Bygg og anlegg;Arbeidsleder, bygg og anlegg
 3131;Energikontrolloperatører;Industri og produksjon;Elektro/elektronikk
 3132;Kontrolloperatører ved forbrennings-, kjøle- og vannrenseanlegg mv.;Industri og produksjon;Maskinteknikk og mekanikk
 3133;Kontrolloperatører innen kjemisk prosessindustri;Industri og produksjon;Fysikk, kjemi og metallurgi
 3134;Kontrolloperatører ved olje- og naturgassraffineringsanlegg;Industri og produksjon;Olje, gass og bergverk
 3135;Kontrolloperatører innen metallproduksjon;Industri og produksjon;Jern og metall
-3135;Kontrolloperatører innen metallproduksjon;Industri og produksjon;Jern og metall
 3139;Andre prosesskontrolloperatører;Industri og produksjon;Fysikk, kjemi og metallurgi
 3141;Bioteknikere (ikke-medisinske laboratorier);Natur og miljø ;Biologer, zoologer, botanikere
 3142;Agroteknikere;Natur og miljø ;Jordbruk og dyrehold
-3142;Agroteknikere;Natur og miljø ;Jordbruk og dyrehold
-3143;Skogteknikere;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 3143;Skogteknikere;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 3151;Skipsmaskinister;Transport og lager;Sjøfart
 3152;Dekksoffiserer og loser;Transport og lager;Sjøfart
 3153;Flygere mv.;Transport og lager;Lufttrafikk
 3154;Flygeledere;Transport og lager;Lufttrafikk
 3155;Teknikere innen luftfartssikkerhet;Transport og lager;Lufttrafikk
-3155;Teknikere innen luftfartssikkerhet;Transport og lager;Lufttrafikk
-3155;Teknikere innen luftfartssikkerhet;Transport og lager;Lufttrafikk
 3211;Radiografer mv.;Helse og sosial;Leger, psykologer og terapeuter
 3212;Bioingeniører;Helse og sosial;Bioingeniør
 3213;Reseptarer;Helse og sosial;Farmasøytisk og apotekerarbeid
 3214;Protese- og tannteknikere;Helse og sosial;Tannhelse/-pleie
-3214;Protese- og tannteknikere;Helse og sosial;Tannhelse/-pleie
-3214;Protese- og tannteknikere;Helse og sosial;Tannhelse/-pleie
-3230;Yrker innen alternativ medisin;Helse og sosial;Leger, psykologer og terapeuter
 3230;Yrker innen alternativ medisin;Helse og sosial;Leger, psykologer og terapeuter
 3240;Dyrepleier;Natur og miljø ;Veterinærer og dyrepleiere
 3251;Tannpleier;Helse og sosial;Tannhelse/-pleie
 3254;Optikere;Helse og sosial;Optiker
-3254;Optikere;Helse og sosial;Optiker
 3256;Helsesekretærer;Helse og sosial;Helse
 3257;Helse og miljøkontrollører;Natur og miljø ;Matproduksjon og næringsmiddelarbeid
-3257;Helse og miljøkontrollører;Natur og miljø ;Matproduksjon og næringsmiddelarbeid
-3258;Ambulansepersonell;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-3258;Ambulansepersonell;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
 3258;Ambulansepersonell;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
 3259;Andre helseyrker;Helse og sosial;Helse
-3259;Andre helseyrker;Helse og sosial;Helse
-3311;Finansmeglere;Kontor og økonomi;Megling
 3311;Finansmeglere;Kontor og økonomi;Megling
 3312;Kundebehandlere lån og kreditt;Kontor og økonomi;Bank finans forsikring
 3313;Regnskapsførere;Kontor og økonomi;Økonomi, statistikk og regnskap
 3315;Takstmenn;Kontor og økonomi;Bank finans forsikring
 3321;Forsikringsagenter;Kontor og økonomi;Bank finans forsikring
 3322;Selgere (engros);Salg og service;Salg, butikk- og varehandel
-3322;Selgere (engros);Salg og service;Salg, butikk- og varehandel
 3323;Innkjøpere;Salg og service;Salg, butikk- og varehandel
 3324;Handels- og skipsmeglere;Kontor og økonomi;Megling
 3331;Speditører og befraktere;Transport og lager;Speditør og befrakter
-3331;Speditører og befraktere;Transport og lager;Speditør og befrakter
-3332;Konferanse- og arrangementsplanleggere;Reiseliv og mat;Reiseliv, hotell og overnatting
-3332;Konferanse- og arrangementsplanleggere;Reiseliv og mat;Reiseliv, hotell og overnatting
 3332;Konferanse- og arrangementsplanleggere;Reiseliv og mat;Reiseliv, hotell og overnatting
 3333;Arbeidsformidlere;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 3334;Eiendomsmeglere- og forvaltere;Salg og service;Eiendomsmegler
 3339;Andre yrker innen forretningstjenester;Kontor og økonomi;Megling
-3341;Arbeidsledere for kontorpersonell;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 3341;Arbeidsledere for kontorpersonell;Kontor og økonomi;Ledelse, administrasjon og rådgivning
 3342;Advokatsekretærer;Kontor og økonomi;Juridisk arbeid
 3343;Sjefssekretærer;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3351;Tollere;Sikkerhet og beredskap;Politi, fengsel og toll
 3352;Skattefunksjonærer;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3353;Saksbehandlere innen sosiale ytelser;Kontor og økonomi;Kontor, forvaltning og saksbehandling
-3353;Saksbehandlere innen sosiale ytelser;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3354;Saksbehandlere for førerkort, importlisenser mv.;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3355;Politibetjenter mv.;Sikkerhet og beredskap;Politi, fengsel og toll
 3359;Andre yrker innen offentlig forvaltning;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3411;Privatetterforskere;Sikkerhet og beredskap;Vakt-, sikrings- og kontrollarbeid
 3412;Miljøarbeidere innen sosiale fagfelt;Utdanning;SFO og fritidsleder
-3412;Miljøarbeidere innen sosiale fagfelt;Utdanning;SFO og fritidsleder
-3412;Miljøarbeidere innen sosiale fagfelt;Utdanning;SFO og fritidsleder
-3412;Miljøarbeidere innen sosiale fagfelt;Utdanning;SFO og fritidsleder
 3413;Religiøse yrker;Kultur og kreative yrker;Religiøst arbeid
 3421;Idrettsutøvere;Kultur og kreative yrker;Sport og idrett
-3422;Trenere og idrettsdommere;Kultur og kreative yrker;Sport og idrett
-3422;Trenere og idrettsdommere;Kultur og kreative yrker;Sport og idrett
 3422;Trenere og idrettsdommere;Kultur og kreative yrker;Sport og idrett
 3423;Sports- og aktivitetsinstruktører;Kultur og kreative yrker;Sport og idrett
 3431;Fotografer og filmfotografer;Kultur og kreative yrker;Musikk/lyd, foto og video
 3432;Interiørdesignere og dekoratører;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
 3433;Tekniske konservatorer;Kultur og kreative yrker;Museum, bibliotek
-3433;Tekniske konservatorer;Kultur og kreative yrker;Museum, bibliotek
 3434;Sjefskokker;Reiseliv og mat;Kokk
-3439;Andre yrker innen estetiske fag;Kultur og kreative yrker;Andre yrker innen estetiske fag
 3439;Andre yrker innen estetiske fag;Kultur og kreative yrker;Andre yrker innen estetiske fag
 3511;Driftsteknikere, IKT;IT;Drift, vedlikehold
 3512;Brukerstøttere, IKT;IT;Drift, vedlikehold
 3513;Nettverks- og systemteknikere, IKT;IT;Drift, vedlikehold
 3514;Internett-teknikere;IT;Drift, vedlikehold
 3521;Teknikere innen radio og tv;Håndverkere;Elektriker/elektro
-3521;Teknikere innen radio og tv;Håndverkere;Elektriker/elektro
-3522;Teknikere innen telekommunikasjon;Håndverkere;Elektriker/elektro
-3522;Teknikere innen telekommunikasjon;Håndverkere;Elektriker/elektro
 3522;Teknikere innen telekommunikasjon;Håndverkere;Elektriker/elektro
 4110;Kontormedarbeidere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4131;Stenografer;Kontor og økonomi;Kontor, forvaltning og saksbehandling
@@ -306,23 +208,17 @@ Styrk code;Styrk description;Category level 1;Category level 2
 4212;Bingoverter, bookmakere mv.;Salg og service;Salg, butikk- og varehandel
 4213;Pantelånere;Salg og service;Salg, butikk- og varehandel
 4214;Inkassomedarbeidere mv.;Kontor og økonomi;Kontor, forvaltning og saksbehandling
-4214;Inkassomedarbeidere mv.;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4221;Reisebyråmedarbeidere mv.;Reiseliv og mat;Reiseliv, hotell og overnatting
 4222;Kundesentermedarbeidere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4223;Sentralbordoperatører;Kontor og økonomi;Kontor, forvaltning og saksbehandling
-4223;Sentralbordoperatører;Kontor og økonomi;Kontor, forvaltning og saksbehandling
-4223;Sentralbordoperatører;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4224;Hotellresepsjonister;Reiseliv og mat;Reiseliv, hotell og overnatting
 4225;Informasjonsskrankemedarbeidere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
-4225;Informasjonsskrankemedarbeidere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4226;Resepsjonister (ekskl. hotell);Kontor og økonomi;Kontor, forvaltning og saksbehandling
-4227;Intervjuere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4227;Intervjuere;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4229;Andre opplysningsmedarbeidere;Salg og service;Salg, butikk- og varehandel
 4311;Regnskapsmedarbeidere;Kontor og økonomi;Økonomi, statistikk og regnskap
 4312;Forsikrings- og finansmedarbeidere;Kontor og økonomi;Bank finans forsikring
 4313;Lønningsmedarbeidere;Kontor og økonomi;Økonomi, statistikk og regnskap
-4321;Lagermedarbeidere og materialforvaltere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 4321;Lagermedarbeidere og materialforvaltere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 4322;Logistikkmedarbeidere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 4323;Transportfunksjonærer;Transport og lager;Logistikk, lagerarbeid og innkjøp
@@ -335,24 +231,16 @@ Styrk code;Styrk description;Category level 1;Category level 2
 5112;Konduktører;Reiseliv og mat;Reiseliv, hotell og overnatting
 5113;Reiseledere og guider;Reiseliv og mat;Reiseliv, hotell og overnatting
 5120;Kokker;Reiseliv og mat;Kokk
-5120;Kokker;Reiseliv og mat;Kokk
-5120;Kokker;Reiseliv og mat;Kokk
 5131;Servitører;Reiseliv og mat;Restaurant
-5131;Servitører;Reiseliv og mat;Restaurant
-5132;Bartendere;Reiseliv og mat;Restaurant
 5132;Bartendere;Reiseliv og mat;Restaurant
 5141;Frisører;Salg og service;Frisør og velvære
-5142;Kosmetologer mv.;Salg og service;Frisør og velvære
-5142;Kosmetologer mv.;Salg og service;Frisør og velvære
 5142;Kosmetologer mv.;Salg og service;Frisør og velvære
 5151;Renholdsledere i bedrifter;Salg og service;Renholdere og renovasjon
 5152;Husholdere;Salg og service;Renholdere og renovasjon
 5153;Vaktmestere;Håndverkere;Vaktmester
-5153;Vaktmestere;Håndverkere;Vaktmester
 5161;Astrologer mv.;Salg og service;Personlig tjenesteyting
 5163;Begravelsesbyrå- og krematoriemedarbeidere;Håndverkere;Øvrige håndverksyrker
 5164;Dyrepassere og -trenere mv.;Natur og miljø ;Veterinærer og dyrepleiere
-5165;Kjøreskolelærere;Utdanning ;Instruktører  og pedagoger
 5165;Kjøreskolelærere;Utdanning ;Instruktører  og pedagoger
 5169;Andre personlige tjenesteytere;Salg og service;Personlig tjenesteyting
 5211;Torghandlere mv.;Salg og service;Salg, butikk- og varehandel
@@ -366,28 +254,19 @@ Styrk code;Styrk description;Category level 1;Category level 2
 5243;Dørselgere;Salg og service;Salg, butikk- og varehandel
 5244;Telefon- og nettselgere;Salg og service;Salg, butikk- og varehandel
 5245;Servicemedarbeidere (bensinstasjon);Salg og service;Salg, butikk- og varehandel
-5245;Servicemedarbeidere (bensinstasjon);Salg og service;Salg, butikk- og varehandel
 5246;Gatekjøkken- og kafémedarbeidere mv.;Salg og service;Salg, butikk- og varehandel
 5249;Andre salgsmedarbeidere;Salg og service;Salg, butikk- og varehandel
 5311;Barnehage- og skolefritidsassistenter mv.;Utdanning ;Barnehage og grunnskole
 5312;Skoleassistenter;Utdanning ;Barnehage og grunnskole
-5312;Skoleassistenter;Utdanning ;Barnehage og grunnskole
-5312;Skoleassistenter;Utdanning ;Barnehage og grunnskole
 5321;Helsefagarbeidere;Helse og sosial;Helse
-5321;Helsefagarbeidere;Helse og sosial;Helse
-5322;Hjemmehjelper;Helse og sosial;Helse
 5322;Hjemmehjelper;Helse og sosial;Helse
 5329;Andre pleiemedarbeidere;Helse og sosial;Helse
 5411;Brannkonstabler;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-5411;Brannkonstabler;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-5413;Fengselsbetjenter;Sikkerhet og beredskap;Politi, fengsel og toll
 5413;Fengselsbetjenter;Sikkerhet og beredskap;Politi, fengsel og toll
 5414;Vektere;Sikkerhet og beredskap;Vakt-, sikrings- og kontrollarbeid
 5419;Andre sikkerhetsarbeidere;Sikkerhet og beredskap;Vakt-, sikrings- og kontrollarbeid
 6111;Korn- og grønnsaksprodusenter;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 6112;Frukt- og bærprodusenter;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
-6113;Gartnere;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
-6113;Gartnere;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 6113;Gartnere;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 6114;Kombinasjonsbrukere, nyttevekster;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
 6121;Melke- og husdyrprodusenter;Natur og miljø ;Jordbruk og dyrehold
@@ -401,10 +280,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 6224;Fangstfolk;Natur og miljø ;Fiske, fangst og oppdrett
 7112;Murere;Håndverkere;Murer
 7113;Steinhoggere;Håndverkere;Øvrige håndverksyrker
-7113;Steinhoggere;Håndverkere;Øvrige håndverksyrker
 7114;Betongarbeidere;Håndverkere;Betongfagarbeider
-7115;Tømrere og snekkere;Håndverkere;Tømrer og snekker
-7115;Tømrere og snekkere;Håndverkere;Tømrer og snekker
 7115;Tømrere og snekkere;Håndverkere;Tømrer og snekker
 7119;Andre bygningsarbeidere;Håndverkere;Øvrige håndverksyrker
 7121;Taktekkere;Håndverkere;Øvrige håndverksyrker
@@ -414,22 +290,15 @@ Styrk code;Styrk description;Category level 1;Category level 2
 7125;Glassarbeidere;Håndverkere;Øvrige håndverksyrker
 7126;Rørleggere og VVS-montører;Håndverkere;Rørlegger
 7127;Kuldemontører mv.;Håndverkere;Rørlegger
-7127;Kuldemontører mv.;Håndverkere;Rørlegger
 7131;Malere og byggtapetserere;Håndverkere;Maler
-7131;Malere og byggtapetserere;Håndverkere;Maler
-7132;Overflatebehandlere og lakkerere;Håndverkere;Maler
 7132;Overflatebehandlere og lakkerere;Håndverkere;Maler
 7133;Feiere, fasaderenholdere mv.;Håndverkere;Feier
 7211;Støpere;Håndverkere;Øvrige håndverksyrker
 7212;Sveisere;Håndverkere;Platearbeider og sveiser
-7212;Sveisere;Håndverkere;Platearbeider og sveiser
-7213;Kopper- og blikkenslagere;Håndverkere;Øvrige håndverksyrker
 7213;Kopper- og blikkenslagere;Håndverkere;Øvrige håndverksyrker
 7214;Platearbeidere;Håndverkere;Platearbeider og sveiser
 7215;Riggere og spleisere;Håndverkere;Øvrige håndverksyrker
-7215;Riggere og spleisere;Håndverkere;Øvrige håndverksyrker
 7221;Smeder;Industri og produksjon;Jern og metall
-7222;Verktøymakere, låsesmeder mv.;Håndverkere;Øvrige håndverksyrker
 7222;Verktøymakere, låsesmeder mv.;Håndverkere;Øvrige håndverksyrker
 7223;Metalldreiere mv.;Industri og produksjon;Maskinteknikk og mekanikk
 7224;Metallslipere;Industri og produksjon;Maskinteknikk og mekanikk
@@ -439,9 +308,6 @@ Styrk code;Styrk description;Category level 1;Category level 2
 7234;Sykkelreparatører mv.;Håndverkere;Mekaniker
 7311;Presisjonsinstrumentmakere og -reparatører;Håndverkere;Øvrige håndverksyrker
 7312;Musikkinstrumentmakere og -stemmere;Håndverkere;Øvrige håndverksyrker
-7312;Musikkinstrumentmakere og -stemmere;Håndverkere;Øvrige håndverksyrker
-7313;Gull- og sølvsmeder, gravører mv.;Håndverkere;Øvrige håndverksyrker
-7313;Gull- og sølvsmeder, gravører mv.;Håndverkere;Øvrige håndverksyrker
 7313;Gull- og sølvsmeder, gravører mv.;Håndverkere;Øvrige håndverksyrker
 7314;Keramikere mv.;Kultur og kreative yrker;Kunst  og kunsthåndverk
 7315;Glasshåndverkere;Kultur og kreative yrker;Kunst  og kunsthåndverk
@@ -469,8 +335,6 @@ Styrk code;Styrk description;Category level 1;Category level 2
 7535;Skinnberedere og garvere;Industri og produksjon;Tekstil og presisjonsarbeid
 7536;Skomakere;Industri og produksjon;Tekstil og presisjonsarbeid
 7541;Yrkesdykkere;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-7541;Yrkesdykkere;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-7541;Yrkesdykkere;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
 7542;Skytebaser og sprengningsarbeidere;Bygg og anlegg;Skytebaser og sprengningsarbeidere
 7543;Produkttestere (ikke matprodukter);Håndverkere;Øvrige håndverksyrker
 7544;Desinfeksjonsarbeidere og skadedyrbekjempere;Håndverkere;Øvrige håndverksyrker
@@ -479,7 +343,6 @@ Styrk code;Styrk description;Category level 1;Category level 2
 8112;Prosessoperatører (oppredning);Industri og produksjon;Olje, gass og bergverk
 8113;Operatører innen boring mv.;Industri og produksjon;Olje, gass og bergverk
 8114;Operatører innen produksjon av betong mv;Håndverkere;Betongfagarbeider
-8121;Operatører innen metallurgiske prosessfag;Industri og produksjon;Fysikk, kjemi og metallurgi
 8121;Operatører innen metallurgiske prosessfag;Industri og produksjon;Fysikk, kjemi og metallurgi
 8122;Operatører innen metalloverflatebehandling;Industri og produksjon;Fysikk, kjemi og metallurgi
 8131;Operatører innen kjemisk industri;Industri og produksjon;Fysikk, kjemi og metallurgi
@@ -492,7 +355,6 @@ Styrk code;Styrk description;Category level 1;Category level 2
 8153;Industrisyere;Industri og produksjon;Tekstil og presisjonsarbeid
 8154;Operatører innen tekstilbearbeiding;Industri og produksjon;Tekstil og presisjonsarbeid
 8155;Operatører innen pels-, skinn- og lærbearbeiding;Industri og produksjon;Tekstil og presisjonsarbeid
-8156;Operatører innen skinn- og lærprodukter;Industri og produksjon;Tekstil og presisjonsarbeid
 8156;Operatører innen skinn- og lærprodukter;Industri og produksjon;Tekstil og presisjonsarbeid
 8157;Renseri- og vaskerimaskinoperatører;Industri og produksjon;Tekstil og presisjonsarbeid
 8159;Andre operatører innen produksjon av tekstiler, pels, skinn og lær;Industri og produksjon;Tekstil og presisjonsarbeid
@@ -511,7 +373,6 @@ Styrk code;Styrk description;Category level 1;Category level 2
 8322;Bil-, drosje- og varebilførere;Transport og lager;Tog-, sporvogn- og vegtrafikk
 8331;Bussjåfører og trikkeførere;Transport og lager;Tog-, sporvogn- og vegtrafikk
 8332;Lastebil- og trailersjåfører;Transport og lager;Tog-, sporvogn- og vegtrafikk
-8332;Lastebil- og trailersjåfører;Transport og lager;Tog-, sporvogn- og vegtrafikk
 8341;Jordbruks- skogbruksmaskinførere;Bygg og anlegg;Maskin- og kranfører
 8342;Anleggsmaskinførere;Bygg og anlegg;Maskin- og kranfører
 8343;Kran- og heisførere;Bygg og anlegg;Maskin- og kranfører
@@ -519,16 +380,10 @@ Styrk code;Styrk description;Category level 1;Category level 2
 8350;Dekks- og maskinmannskap (skip);Transport og lager;Sjøfart
 9111;Renholdere i private hjem;Salg og service;Renholdere og renovasjon
 9112;Renholdere i bedrifter;Salg og service;Renholdere og renovasjon
-9112;Renholdere i bedrifter;Salg og service;Renholdere og renovasjon
-9112;Renholdere i bedrifter;Salg og service;Renholdere og renovasjon
-9122;Bilvaskere;Salg og service;Renholdere og renovasjon
 9122;Bilvaskere;Salg og service;Renholdere og renovasjon
 9123;Vinduspussere;Salg og service;Renholdere og renovasjon
-9123;Vinduspussere;Salg og service;Renholdere og renovasjon
-9129;Andre rengjørere;Salg og service;Renholdere og renovasjon
 9129;Andre rengjørere;Salg og service;Renholdere og renovasjon
 9211;Hjelpearbeidere i nyttevekstproduksjon;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
-9212;Hjelpearbeidere i husdyrproduksjon;Natur og miljø ;Jordbruk og dyrehold
 9212;Hjelpearbeidere i husdyrproduksjon;Natur og miljø ;Jordbruk og dyrehold
 9213;Hjelpearbeidere (gårdsbruk/landbruk);Natur og miljø ;Jordbruk og dyrehold
 9214;Hjelpearbeidere i gartneri mv.;Natur og miljø ;Skogbruk, gartnerarbeid og hagebruk
@@ -538,27 +393,16 @@ Styrk code;Styrk description;Category level 1;Category level 2
 9312;Hjelpearbeidere i anlegg;Bygg og anlegg;Hjelpearbeider Bygg og anlegg
 9313;Hjelpearbeidere i bygg;Bygg og anlegg;Hjelpearbeider Bygg og anlegg
 9321;Håndpakkere mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
-9321;Håndpakkere mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
-9321;Håndpakkere mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
-9321;Håndpakkere mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
 9329;Andre hjelpearbeidere i industri;Industri og produksjon;Andre hjelpearbeidere
 9331;Førere av ikke-motoriserte kjøretøy;Transport og lager;Logistikk, lagerarbeid og innkjøp
-9331;Førere av ikke-motoriserte kjøretøy;Transport og lager;Logistikk, lagerarbeid og innkjøp
-9333;Laste- og lossearbeidere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 9333;Laste- og lossearbeidere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 9334;Varepåfyllere;Salg og service;Salg, butikk- og varehandel
-9334;Varepåfyllere;Salg og service;Salg, butikk- og varehandel
 9412;Kjøkkenassistenter;Reiseliv og mat;Reiseliv, hotell og overnatting
-9412;Kjøkkenassistenter;Reiseliv og mat;Reiseliv, hotell og overnatting
-9510;Reklamedistributører mv.;Salg og service;Markedsføring og reklame
 9510;Reklamedistributører mv.;Salg og service;Markedsføring og reklame
 9611;Renovasjonsarbeidere;Salg og service;Renholdere og renovasjon
 9612;Gjenvinningsarbeidere;Salg og service;Renholdere og renovasjon
 9613;Gatefeiere mv.;Salg og service;Renholdere og renovasjon
 9621;Bud mv.;Transport og lager;Speditør og befrakter
 9622;Altmuligmann;Håndverkere;Vaktmester
-9622;Altmuligmann;Håndverkere;Vaktmester
 9623;Måleravlesere mv.;Salg og service;Post og måleavlesere
-9623;Måleravlesere mv.;Salg og service;Post og måleavlesere
-9629;Andre hjelpearbeidere;Håndverkere;Øvrige håndverksyrker
 9629;Andre hjelpearbeidere;Håndverkere;Øvrige håndverksyrker
