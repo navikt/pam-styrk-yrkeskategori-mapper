@@ -1,7 +1,4 @@
-@Library('deploy')
-import deploy
-
-def deployLib = new deploy()
+// pam-styrk-yrkeskategori-mapper build and test
 
 githubAppId = '23179'
 githubAppCredentialId = 'teampam-ci'
