@@ -3,8 +3,23 @@ import deploy
 
 def deployLib = new deploy()
 
+githubAppId = '23179'
+githubAppCredentialId = 'teampam-ci'
+def newAppToken() {
+    withEnv(['HTTPS_PROXY=webproxy-internett.nav.no:8088']) {
+        withCredentials([file(credentialsId: githubAppCredentialId, variable: 'KEYFILE')]) {
+            dir('token') {
+                def generatedToken = sh(script: "generate-jwt.sh \$KEYFILE ${githubAppId} | xargs generate-installation-token.sh", returnStdout: true)
+                return generatedToken.trim()
+            }
+        }
+    }
+}
+
 node {
     def application = "pam-styrk-yrkeskategori-mapper"
+    def repo = "navikt"
+    def githubAppToken = newAppToken()
 
     def committer, committerEmail, changelog, pom, releaseVersion, isSnapshot, nextVersion // metadata
 
@@ -13,14 +28,13 @@ node {
 
     try {
 
-        stage("checkout") {
-                    cleanWs()
-                    withCredentials([string(credentialsId: 'navikt-ci-oauthtoken', variable: 'token')]) {
-                     withEnv(['HTTPS_PROXY=http://webproxy-utvikler.nav.no:8088']) {
-                            git url: "https://${token}:x-oauth-basic@github.com/navikt/${application}.git"
-                        }
-                    }
-                }
+        stage("Checkout") {
+            cleanWs()
+            withEnv(['HTTPS_PROXY=http://webproxy-internett.nav.no:8088']) {
+               println("Repository URL is https://x-access-token:****@github.com/${repo}/${application}.git")
+               sh(script: "set +x; git clone https://x-access-token:${githubAppToken}@github.com/${repo}/${application}.git .")
+            }
+        }
 
         stage("initialize") {
             pom = readMavenPom file: 'pom.xml'
@@ -31,7 +45,7 @@ node {
             changelog = sh(script: 'git log `git describe --tags --abbrev=0`..HEAD --oneline', returnStdout: true)
         }
 
-        stage("verify maven versions") {
+        stage("Verify maven versions") {
             sh 'echo "Verifying that no snapshot dependencies is being used."'
             sh 'grep module pom.xml | cut -d">" -f2 | cut -d"<" -f1 > snapshots.txt'
             sh 'echo "./" >> snapshots.txt'
@@ -39,7 +53,7 @@ node {
         }
 
 
-        stage("build and test backend") {
+        stage("Build and test backend") {
             if (isSnapshot) {
                 sh "${mvn} clean install -Dit.skip=true -Djava.io.tmpdir=/tmp/${application} -B -e"
             } else {
