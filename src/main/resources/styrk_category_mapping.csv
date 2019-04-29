@@ -75,15 +75,15 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2310;Universitets- og høyskolelektorer/-lærere;Utdanning ;Universitet og høyskole
 2320;Yrkesfaglærere;Utdanning ;Videregående skole
 2330;Lektorer mv. i videregående skole;Utdanning ;Videregående skole
-2341;Grunnskolelærere;Utdanning ;Barnehage og grunnskole
-2342;Førskolelærere;Utdanning ;Barnehage og grunnskole
+2341;Grunnskolelærere;Utdanning;Grunnskole
+2342;Førskolelærere;Utdanning;Barnehage
 2351;Spesialister i pedagogikk;Utdanning;Instruktører  og pedagoger
 2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører  og pedagoger
-2353;Andre språklærere;Utdanning ;Barnehage og grunnskole
-2354;Andre musikklærere;Utdanning ;Barnehage og grunnskole
-2355;Andre lærere i estetiske fag;Utdanning ;Barnehage og grunnskole
-2356;Andre IKT-lærere;Utdanning ;Barnehage og grunnskole
-2359;Andre lærere;Utdanning ;Barnehage og grunnskole
+2353;Andre språklærere;Utdanning;Grunnskole
+2354;Andre musikklærere;Utdanning;Grunnskole
+2355;Andre lærere i estetiske fag;Utdanning;Grunnskole
+2356;Andre IKT-lærere;Utdanning;Grunnskole
+2359;Andre lærere;Utdanning;Grunnskole
 2411;Revisorer og regnskapsrådgivere;Kontor og økonomi;Økonomi, statistikk og regnskap
 2412;Finans- og investeringsrådgivere;Kontor og økonomi;Bank finans forsikring
 2413;Finansanalytikere;Kontor og økonomi;Bank finans forsikring
@@ -256,8 +256,8 @@ Styrk code;Styrk description;Category level 1;Category level 2
 5245;Servicemedarbeidere (bensinstasjon);Salg og service;Salg, butikk- og varehandel
 5246;Gatekjøkken- og kafémedarbeidere mv.;Salg og service;Salg, butikk- og varehandel
 5249;Andre salgsmedarbeidere;Salg og service;Salg, butikk- og varehandel
-5311;Barnehage- og skolefritidsassistenter mv.;Utdanning ;Barnehage og grunnskole
-5312;Skoleassistenter;Utdanning ;Barnehage og grunnskole
+5311;Barnehage- og skolefritidsassistenter mv.;Utdanning;Barnehage
+5312;Skoleassistenter;Utdanning;Grunnskole
 5321;Helsefagarbeidere;Helse og sosial;Helse
 5322;Hjemmehjelper;Helse og sosial;Sosial
 5329;Andre pleiemedarbeidere;Helse og sosial;Helse
