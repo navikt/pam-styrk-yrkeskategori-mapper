@@ -67,11 +67,11 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2261;Tannleger;Helse og sosial;Tannhelse/-pleie
 2262;Farmasøyter;Helse og sosial;Farmasøytisk og apotekerarbeid
 2263;Helse- og miljørådgivere;Helse og sosial;Helse
-2264;Fysioterapeuter;Helse og sosial;Leger, psykologer og terapeuter
-2265;Ernæringsfysiologer;Helse og sosial;Leger, psykologer og terapeuter
-2266;Audiografer og logopeder;Helse og sosial;Leger, psykologer og terapeuter
-2267;Ergoterapeuter;Helse og sosial;Leger, psykologer og terapeuter
-2269;Kiropraktorer mv.;Helse og sosial;Leger, psykologer og terapeuter
+2264;Fysioterapeuter;Helse og sosial;Psykologer og terapeuter
+2265;Ernæringsfysiologer;Helse og sosial;Psykologer og terapeuter
+2266;Audiografer og logopeder;Helse og sosial;Psykologer og terapeuter
+2267;Ergoterapeuter;Helse og sosial;Psykologer og terapeuter
+2269;Kiropraktorer mv.;Helse og sosial;Psykologer og terapeuter
 2310;Universitets- og høyskolelektorer/-lærere;Utdanning ;Universitet og høyskole
 2320;Yrkesfaglærere;Utdanning ;Videregående skole
 2330;Lektorer mv. i videregående skole;Utdanning ;Videregående skole
@@ -112,7 +112,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2631;Rådgivere/forskere, samfunnsøkonomi;Utdanning ;Forskningsarbeid
 2632;Rådgivere/forskere, samfunnsvitenskap;Utdanning ;Forskningsarbeid
 2633;Rådgivere/forskere, humanistiske fag;Utdanning ;Forskningsarbeid
-2634;Psykologer;Helse og sosial;Leger, psykologer og terapeuter
+2634;Psykologer;Helse og sosial;Psykologer og terapeuter
 2635;Rådgivere innen sosiale fagfelt;Helse og sosial;Sosial
 2636;Geistlige yrker;Kultur og kreative yrker;Religiøst arbeid
 2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk og litteratur
@@ -150,11 +150,11 @@ Styrk code;Styrk description;Category level 1;Category level 2
 3153;Flygere mv.;Transport og lager;Lufttrafikk
 3154;Flygeledere;Transport og lager;Lufttrafikk
 3155;Teknikere innen luftfartssikkerhet;Transport og lager;Lufttrafikk
-3211;Radiografer mv.;Helse og sosial;Leger, psykologer og terapeuter
+3211;Radiografer mv.;Helse og sosial;Psykologer og terapeuter
 3212;Bioingeniører;Helse og sosial;Bioingeniør
 3213;Reseptarer;Helse og sosial;Farmasøytisk og apotekerarbeid
 3214;Protese- og tannteknikere;Helse og sosial;Tannhelse/-pleie
-3230;Yrker innen alternativ medisin;Helse og sosial;Leger, psykologer og terapeuter
+3230;Yrker innen alternativ medisin;Helse og sosial;Psykologer og terapeuter
 3240;Dyrepleier;Natur og miljø ;Veterinærer og dyrepleiere
 3251;Tannpleier;Helse og sosial;Tannhelse/-pleie
 3254;Optikere;Helse og sosial;Optiker
