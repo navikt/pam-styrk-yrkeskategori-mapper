@@ -38,21 +38,21 @@ public class StyrkCodeConverterTest {
             "Ikke identifiserbare"
     );
 
+    StyrkCodeConverter styrkCodeConverter = new StyrkCodeConverter();
+
     @Test
     public void styrkCodeConverterShouldReturnCorrectHashMap() throws IOException {
-
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         assertTrue(Optional.of(testOccupation1).equals(styrkCodeConverter.lookup("110")));
         assertTrue(Optional.of(testOccupation2).equals(styrkCodeConverter.lookup("5131")));
         assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookup("2342.03")));
-        assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookupPyrk("Utdanning", "Barnehage")));
+        assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookupPyrk("2342")));
+        System.out.println(styrkCodeConverter.showPyrkOccupations());
     }
 
     @Test
     public void styrkCodeConverterShouldReturnOptionalEmptyIfKeyDoesNotExistInMap()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         String NON_EXISTENT_STYRK_CODE = "9999";
         Optional<Occupation> result = styrkCodeConverter.lookup(NON_EXISTENT_STYRK_CODE);
@@ -63,7 +63,6 @@ public class StyrkCodeConverterTest {
     @Test
     public void styrkCodeConverterShouldReturnOptionalEmptyIfKeyIsInvalid()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         String INVALID_STYRK_CODE = "INVALID STYRK CODE";
         Optional<Occupation> result = styrkCodeConverter.lookup(INVALID_STYRK_CODE);
@@ -74,7 +73,6 @@ public class StyrkCodeConverterTest {
     @Test
     public void styrkCodeConverterShouldRemoveExcessDigitsFromInputStringAndReturnValueForFourDigitKey()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         String SIX_DIGIT_STYRK_CODE = "513199";
 
@@ -87,7 +85,6 @@ public class StyrkCodeConverterTest {
     @Test
     public void styrkCodeConverterShouldReturnCorrectOccupationForThreeDigitStyrkCodes()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         String THREE_DIGIT_STYRK_CODE = "110";
 
@@ -99,7 +96,6 @@ public class StyrkCodeConverterTest {
     @Test
     public void styrkCodeConverterShouldReturnEmptyOccupationForStyrkCodeZero()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         String STYRK_CODE_ZERO = "0";
 
@@ -111,7 +107,6 @@ public class StyrkCodeConverterTest {
     @Test(expected = NullPointerException.class)
     public void styrkCodeConverterShouldThrowExceptionForNullInput()
             throws IOException {
-        StyrkCodeConverter styrkCodeConverter = StyrkCodeConverter.newInstance();
 
         styrkCodeConverter.lookup(null);
     }

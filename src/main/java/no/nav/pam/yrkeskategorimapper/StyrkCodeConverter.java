@@ -13,24 +13,9 @@ public class StyrkCodeConverter {
 
     public static final String STYRK_MAPPING_RESOURCE = "/styrk_category_mapping.csv";
 
-    private final Map<String, Occupation> occupationMap;
-    private final Map<String, Occupation> pyrkMap;
+    private final Map<String, Occupation> occupationMap = generateHashMap();
+    private final Map<String, Occupation> pyrkMap = generatePyrkMap(occupationMap);
 
-    /**
-     * Construct a new instance of mapper.
-     * @return Returns mapper object used for conversion between Styrk Code and Occupation Categories 1 and 2 (Yrkeskategoritre 1 og 2)
-     * @throws IOException Parser throws IOException on error.
-     */
-    public static StyrkCodeConverter newInstance() throws IOException {
-        Map<String, Occupation> occupationMap = StyrkCodeConverter.generateHashMap();
-        Map<String, Occupation> pyrkMap = StyrkCodeConverter.generatePyrkMap(occupationMap);
-        return new StyrkCodeConverter(occupationMap, pyrkMap);
-    }
-
-    private StyrkCodeConverter(Map<String, Occupation> occupationMap, Map<String, Occupation> pyrkMap) {
-        this.occupationMap = occupationMap;
-        this.pyrkMap = pyrkMap;
-    }
 
     /**
      * Lookup STYRK code, 1 to 6 digits.
@@ -52,26 +37,32 @@ public class StyrkCodeConverter {
         return Optional.ofNullable(occupationMap.get(styrkCode));
     }
 
-    public Optional<Occupation> lookupPyrk(String categoryLevel1, String categoryLevel2) {
-        String pyrk = categoryLevel1 + " - " + categoryLevel2;
-        return Optional.ofNullable(pyrkMap.get(pyrk));
+    public Optional<Occupation> lookupPyrk(String kode) {
+        return Optional.ofNullable(pyrkMap.get(kode));
     }
 
-    private static Map<String, Occupation> generateHashMap() throws IOException {
+    private Map<String, Occupation> generateHashMap() {
         try (InputStream is = StyrkCodeConverter.class.getResourceAsStream(STYRK_MAPPING_RESOURCE)) {
             // If duplicate STYRK code keys, just select one of them
             return StyrkParser.parse(is).stream().collect(
                     Collectors.toMap(Occupation::getStyrkCode, Function.identity(), (o1, o2) -> o1));
         }
+        catch (IOException e) {
+            throw new RuntimeException("StyrKodeConvertert failed to initialize",e);
+        }
     }
 
-    private static Map<String, Occupation> generatePyrkMap(Map<String,Occupation> occupationMap){
+    private Map<String, Occupation> generatePyrkMap(Map<String,Occupation> occupationMap){
         Map<String,Occupation> pyrks = new HashMap<>();
+        Set<String> pyrkcats = new HashSet<>();
         List<Occupation> occupations = new ArrayList<Occupation>(occupationMap.values());
         Collections.sort(occupations);
         occupations.forEach(o -> {
             String pyrk = o.getCategoryLevel1()+" - " + o.getCategoryLevel2();
-            if (!pyrks.containsKey(pyrk)) pyrks.put(pyrk, o);
+            if (!pyrkcats.contains(pyrk))  {
+                pyrkcats.add(pyrk);
+                pyrks.put(o.getStyrkCode(), o);
+            }
         });
         return pyrks;
     }
@@ -84,6 +75,14 @@ public class StyrkCodeConverter {
             buffer.append(o.getStyrkCode()+" "+o.getCategoryLevel1()+" - " +o.getCategoryLevel2()+"\n");
         });
         return buffer.toString();
+    }
+
+    public Map<String, Occupation> getOccupationMap() {
+        return occupationMap;
+    }
+
+    public Map<String, Occupation> getPyrkMap() {
+        return pyrkMap;
     }
 
 }
