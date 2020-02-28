@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Domain object represents an occupation with styrk code, styrk description, category levels 1 and 2 (Yrksekategoritre nivå 1 og 2).
  */
-public class Occupation {
+public class Occupation implements Comparable<Occupation> {
 
     private final String styrkCode;
 
@@ -52,6 +52,13 @@ public class Occupation {
                 Objects.equals(styrkDescription, that.styrkDescription) &&
                 Objects.equals(categoryLevel1, that.categoryLevel1) &&
                 Objects.equals(categoryLevel2, that.categoryLevel2);
+    }
+
+    @Override
+    public int compareTo(Occupation o) {
+        if (this.getStyrkCode().compareTo(o.getStyrkCode())>0) return 1;
+        if (this.getStyrkCode().compareTo(o.getStyrkCode())<0) return -1;
+        return 0;
     }
 
     @Override

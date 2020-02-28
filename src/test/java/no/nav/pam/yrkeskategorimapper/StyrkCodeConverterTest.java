@@ -46,6 +46,7 @@ public class StyrkCodeConverterTest {
         assertTrue(Optional.of(testOccupation1).equals(styrkCodeConverter.lookup("110")));
         assertTrue(Optional.of(testOccupation2).equals(styrkCodeConverter.lookup("5131")));
         assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookup("2342.03")));
+        assertTrue(Optional.of(testOccupation3).equals(styrkCodeConverter.lookupPyrk("Utdanning", "Barnehage")));
     }
 
     @Test
