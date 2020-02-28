@@ -5,23 +5,70 @@
   <groupId>no.nav.arbeid.pam</groupId>
   <artifactId>pam-styrk-yrkeskategori-mapper</artifactId>
   <version>1.21-SNAPSHOT</version>
+
+  <profiles>
+    <profile>
+      <id>owasp</id>
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+              <version>3.1.2</version>
+              <configuration>
+                <failBuildOnCVSS>8</failBuildOnCVSS>
+              </configuration>
+              <executions>
+                <execution>
+                  <goals>
+                    <goal>check</goal>
+                  </goals>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+  </profiles>
+
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
+        <version>${maven-compiler-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>testCompile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>11</java.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
   </properties>
+
 
   <dependencies>
     <dependency>
@@ -43,19 +90,19 @@
 
   </dependencies>
 
+  <repositories>
+    <repository>
+      <name>jcenter</name>
+      <id>jcenter</id>
+      <url>http://jcenter.bintray.com/</url>
+    </repository>
+  </repositories>
 
   <distributionManagement>
     <repository>
-      <id>m2internal</id>
-      <name>NAV Maven2 Internal Repository</name>
-      <url>https://repo.adeo.no/repository/maven-releases/</url>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/navikt/pam-ansettelseskodeverk</url>
     </repository>
-    <snapshotRepository>
-      <id>m2snapshot</id>
-      <name>NAV Maven2 Snapshot Repository</name>
-      <url>https://repo.adeo.no/repository/maven-snapshots/</url>
-      <uniqueVersion>false</uniqueVersion>
-    </snapshotRepository>
   </distributionManagement>
 
   <scm>
@@ -63,4 +110,6 @@
     <developerConnection>scm:git:https://github.com/navikt/pam-styrk-yrkeskategori-mapper.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+
 </project>
