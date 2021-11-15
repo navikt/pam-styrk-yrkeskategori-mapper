@@ -18,7 +18,7 @@ public class StyrkParserTest {
     public void styrkParserShouldReturnCorrectCategoryCodes() throws IOException {
 
         Occupation testOccupation1 = new Occupation(
-                "110",
+                "0110",
                 "Offiserer fra fenrik og høyere grad",
                 "Sikkerhet og beredskap",
                 "Forsvar/militære"

@@ -23,17 +23,23 @@ public class StyrkCodeConverter {
      * <p>Input Styrk Code. Styrk Code will be converted to Occupation domain object and returned as Optional</p>
      * Occupation domain object represents an occupation with occupation category levels 1 and 2 (Yrkeskategori)
      * <p>Only 4 digit Styrk codes are accepted. If more than 4 digits are provided, the excess digits are discarded before conversion.</p>
-     *
+     *<p>If less than 4 digit, leading zeroes will be added </p>
      * @param styrkCode The Styrk Code to be converted to Occupation Category level 1 and 2 (Yrkeskategori)
      * @return Optional of requested Occupation domain object
      * @throws NullPointerException if provided string is {@code null}
      */
     public Optional<Occupation> lookup(String styrkCode) {
-
-        if (styrkCode.length() > 4) {
+        int length = styrkCode.length();
+        if (length < 4) {
+            StringBuffer leadingZeros = new StringBuffer();
+            for (int i = 4; i>length; i--) {
+                leadingZeros.append(0);
+            }
+            styrkCode = leadingZeros.toString()+styrkCode;
+        }
+        else if (styrkCode.length() > 4) {
             styrkCode = styrkCode.substring(0, 4);
         }
-
         return Optional.ofNullable(occupationMap.get(styrkCode));
     }
 

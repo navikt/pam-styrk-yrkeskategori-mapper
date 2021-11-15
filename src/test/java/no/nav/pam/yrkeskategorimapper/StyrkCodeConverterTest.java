@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class StyrkCodeConverterTest {
 
     private final Occupation testOccupation1 = new Occupation(
-            "110",
+            "0110",
             "Offiserer fra fenrik og høyere grad",
             "Sikkerhet og beredskap",
             "Forsvar/militære"
@@ -32,7 +32,7 @@ public class StyrkCodeConverterTest {
     );
 
     private final Occupation testOccupationZero = new Occupation(
-            "0",
+            "0000",
             "Ikke konvertert",
             "Uoppgitt/ ikke identifiserbare",
             "Ikke identifiserbare"
