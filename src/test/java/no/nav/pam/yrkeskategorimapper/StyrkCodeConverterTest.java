@@ -28,7 +28,7 @@ public class StyrkCodeConverterTest {
             "2342",
             "Førskolelærere",
             "Utdanning",
-            "Barnehage"
+            "Førskolelærer"
     );
 
     private final Occupation testOccupationZero = new Occupation(
