@@ -21,7 +21,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 1323;Ledere av bygge- og anleggsvirksomhet;Bygg og anlegg;Arbeidsleder, bygg og anlegg
 1324;Ledere av logistikk og transport mv.;Transport og lager;Logistikk, lagerarbeid og innkjøp
 1330;Ledere av IKT-enheter;IT;Ledere av IKT-enheter
-1341;Ledere av omsorgstjenester for barn;Utdanning;SFO, barne- og fritidsleder
+1341;Ledere av omsorgstjenester for barn;Utdanning;Ledere av omsorgstjenetser for barn
 1342;Ledere av helsetjenester;Helse og sosial;Leder innenfor helsetjenester
 1343;Ledere av eldreomsorg;Helse og sosial;Leder innenfor helsetjenester
 1344;Ledere av sosialomsorg;Helse og sosial;Leder innenfor helsetjenester
@@ -47,7 +47,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2144;Sivilingeniører (maskin- og marinteknikk);Industri og produksjon;Maskinteknikk og mekanikk
 2145;Sivilingeniører (kjemi);Industri og produksjon;Fysikk, kjemi og metallurgi
 2146;Sivilingeniører (geofag, petroleums-teknologi, metallurgi mv.);Industri og produksjon;Olje, gass og bergverk
-2149;Andre sivilingeniører( unntatt elektroteknologi);Utdanning;Forskningsarbeid
+2149;Andre sivilingeniører( unntatt elektroteknologi);Bygg og anlegg;Andre ingeniører
 2151;Sivilingeniører (elkraftteknikk);Industri og produksjon;Elektro/elektronikk
 2152;Sivilingeniører (elektronikk);Industri og produksjon;Elektro/elektronikk
 2153;Sivilingeniører (telekommunikasjon);Industri og produksjon;Elektro/elektronikk
@@ -62,21 +62,21 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2221;Spesialsykepleiere;Helse og sosial;Sykepleier
 2222;Jordmødre;Helse og sosial;Sykepleier
 2223;Sykepleiere;Helse og sosial;Sykepleier
-2224;Vernepleiere;Helse og sosial;Helse
+2224;Vernepleiere;Helse og sosial;Vernepleier
 2250;Veterinærer;Natur og miljø ;Veterinærer og dyrepleiere
 2261;Tannleger;Helse og sosial;Tannhelse/-pleie
 2262;Farmasøyter;Helse og sosial;Farmasøytisk og apotekerarbeid
-2263;Helse- og miljørådgivere;Helse og sosial;Helse
-2264;Fysioterapeuter;Helse og sosial;Psykologer og terapeuter
-2265;Ernæringsfysiologer;Helse og sosial;Psykologer og terapeuter
-2266;Audiografer og logopeder;Helse og sosial;Psykologer og terapeuter
-2267;Ergoterapeuter;Helse og sosial;Psykologer og terapeuter
-2269;Kiropraktorer mv.;Helse og sosial;Psykologer og terapeuter
+2263;Helse- og miljørådgivere;Helse og sosial;Helse- og miljørådgivere
+2264;Fysioterapeuter;Helse og sosial;Fysioterapeut
+2265;Ernæringsfysiologer;Helse og sosial;Ernæringsfysiolog
+2266;Audiografer og logopeder;Helse og sosial;Audiografer og logopeder
+2267;Ergoterapeuter;Helse og sosial;Ergoterapeut
+2269;Kiropraktorer mv.;Helse og sosial;Kiropraktor og osteopat
 2310;Universitets- og høyskolelektorer/-lærere;Utdanning ;Universitet og høyskole
 2320;Yrkesfaglærere;Utdanning ;Videregående skole
 2330;Lektorer mv. i videregående skole;Utdanning ;Videregående skole
 2341;Grunnskolelærere;Utdanning;Grunnskole
-2342;Førskolelærere;Utdanning;Barnehage
+2342;Førskolelærere;Utdanning;Førskolelærer
 2351;Spesialister i pedagogikk;Utdanning;Instruktører  og pedagoger
 2352;Spesiallærere/spesialpedagoger;Utdanning;Instruktører  og pedagoger
 2353;Andre språklærere;Utdanning;Grunnskole
@@ -92,7 +92,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2423;Personal- og karriererådgivere;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 2424;Rådgivere innen kompetanseutvikling;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 2431;Reklame- og markedsføringsrådgivere;Salg og service;Markedsføring og reklame
-2432;Informasjonsrådgivere;Kultur og kreative yrker;Journalistikk og litteratur
+2432;Informasjonsrådgivere;Kultur og kreative yrker;Journalistikk, kommunikasjon og litteratur
 2433;Salgskonsulenter innen tekniske og medisinske produkter;Salg og service;Salg, butikk- og varehandel
 2434;Salgskonsulenter innen IKT-produkter;Salg og service;Salg, butikk- og varehandel
 2511;Systemanalytikere/-arkitekter;IT;Utvikling
@@ -107,16 +107,16 @@ Styrk code;Styrk description;Category level 1;Category level 2
 2611;Jurister og advokater;Kontor og økonomi;Juridisk arbeid
 2612;Dommere;Kontor og økonomi;Juridisk arbeid
 2619;Andre juridiske yrker;Kontor og økonomi;Juridisk arbeid
-2621;Arkivarer og kuratorer;Kultur og kreative yrker;Museum, bibliotek
-2622;Bibliotekarer og andre informasjonsarbeidere;Kultur og kreative yrker;Museum, bibliotek
+2621;Arkivarer og kuratorer;Kultur og kreative yrker;Museum, bibliotek, arkiv
+2622;Bibliotekarer og andre informasjonsarbeidere;Kultur og kreative yrker;Museum, bibliotek, arkiv
 2631;Rådgivere/forskere, samfunnsøkonomi;Utdanning ;Forskningsarbeid
 2632;Rådgivere/forskere, samfunnsvitenskap;Utdanning ;Forskningsarbeid
 2633;Rådgivere/forskere, humanistiske fag;Utdanning ;Forskningsarbeid
-2634;Psykologer;Helse og sosial;Psykologer og terapeuter
-2635;Rådgivere innen sosiale fagfelt;Helse og sosial;Sosial
+2634;Psykologer;Helse og sosial;Psykolog
+2635;Rådgivere innen sosiale fagfelt;Helse og sosial;Rådgivere innen sosiale fagfelt
 2636;Geistlige yrker;Kultur og kreative yrker;Religiøst arbeid
-2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk og litteratur
-2642;Journalister;Kultur og kreative yrker;Journalistikk og litteratur
+2641;Forfattere mv.;Kultur og kreative yrker;Journalistikk, kommunikasjon og litteratur
+2642;Journalister;Kultur og kreative yrker;Journalistikk, kommunikasjon og litteratur
 2643;Oversettere, tolker mv;Salg og service;Tolk og oversettere
 2651;Skulptører, kunstmalere og andre billedkunstnere;Kultur og kreative yrker;Kunst  og kunsthåndverk
 2652;Dirigenter, komponister, musikere og sangere;Kultur og kreative yrker;Musikk/lyd, foto og video
@@ -132,7 +132,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 3116;Kjemiingeniører;Industri og produksjon;Fysikk, kjemi og metallurgi
 3117;Ingeniører innen petroleum, bergverk og metallurgi;Industri og produksjon;Olje, gass og bergverk
 3118;Tekniske tegnere;Industri og produksjon;Maskinteknikk og mekanikk
-3119;Andre ingeniører;Utdanning;Forskningsarbeid
+3119;Andre ingeniører;Bygg og anlegg;Andre ingeniører
 3121;Arbeidsleder, bergfag, oljevirksomhet;Industri og produksjon;Olje, gass og bergverk
 3122;Arbeidsleder, industri;Industri og produksjon;Arbeidsleder, industri
 3123;Arbeidsleder, bygg og anlegg;Bygg og anlegg;Arbeidsleder, bygg og anlegg
@@ -150,18 +150,18 @@ Styrk code;Styrk description;Category level 1;Category level 2
 3153;Flygere mv.;Transport og lager;Lufttrafikk
 3154;Flygeledere;Transport og lager;Lufttrafikk
 3155;Teknikere innen luftfartssikkerhet;Transport og lager;Lufttrafikk
-3211;Radiografer mv.;Helse og sosial;Psykologer og terapeuter
+3211;Radiografer mv.;Helse og sosial;Radiograf og audiograf
 3212;Bioingeniører;Helse og sosial;Bioingeniør
 3213;Reseptarer;Helse og sosial;Farmasøytisk og apotekerarbeid
 3214;Protese- og tannteknikere;Helse og sosial;Tannhelse/-pleie
-3230;Yrker innen alternativ medisin;Helse og sosial;Psykologer og terapeuter
+3230;Yrker innen alternativ medisin;Helse og sosial;Alternativ medisin
 3240;Dyrepleier;Natur og miljø ;Veterinærer og dyrepleiere
 3251;Tannpleier;Helse og sosial;Tannhelse/-pleie
 3254;Optikere;Helse og sosial;Optiker
-3256;Helsesekretærer;Helse og sosial;Helse
-3257;Helse og miljøkontrollører;Natur og miljø ;Matproduksjon og næringsmiddelarbeid
+3256;Helsesekretærer;Helse og sosial;Helsesekretær
+3257;Helse og miljøkontrollører;Kontor og økonomi;Personal, arbeidsmiljø og rekruttering
 3258;Ambulansepersonell;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
-3259;Andre helseyrker;Helse og sosial;Helse
+3259;Andre helseyrker;Helse og sosial;Andre helseyrker
 3311;Finansmeglere;Kontor og økonomi;Megling
 3312;Kundebehandlere lån og kreditt;Kontor og økonomi;Bank finans forsikring
 3313;Regnskapsførere;Kontor og økonomi;Økonomi, statistikk og regnskap
@@ -185,14 +185,14 @@ Styrk code;Styrk description;Category level 1;Category level 2
 3355;Politibetjenter mv.;Sikkerhet og beredskap;Politi, fengsel og toll
 3359;Andre yrker innen offentlig forvaltning;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 3411;Privatetterforskere;Sikkerhet og beredskap;Vakt-, sikrings- og kontrollarbeid
-3412;Miljøarbeidere innen sosiale fagfelt;Utdanning;SFO, barne- og fritidsleder
+3412;Miljøarbeidere innen sosiale fagfelt;Helse og sosial;Miljøarbeidere
 3413;Religiøse yrker;Kultur og kreative yrker;Religiøst arbeid
 3421;Idrettsutøvere;Kultur og kreative yrker;Sport og idrett
 3422;Trenere og idrettsdommere;Kultur og kreative yrker;Sport og idrett
 3423;Sports- og aktivitetsinstruktører;Kultur og kreative yrker;Sport og idrett
 3431;Fotografer og filmfotografer;Kultur og kreative yrker;Musikk/lyd, foto og video
 3432;Interiørdesignere og dekoratører;Kultur og kreative yrker;Design, grafisk arbeid og illustrasjon
-3433;Tekniske konservatorer;Kultur og kreative yrker;Museum, bibliotek
+3433;Tekniske konservatorer;Kultur og kreative yrker;Museum, bibliotek, arkiv
 3434;Sjefskokker;Reiseliv og mat;Kokk
 3439;Andre yrker innen estetiske fag;Kultur og kreative yrker;Andre yrker innen estetiske fag
 3511;Driftsteknikere, IKT;IT;Drift, vedlikehold
@@ -222,7 +222,7 @@ Styrk code;Styrk description;Category level 1;Category level 2
 4321;Lagermedarbeidere og materialforvaltere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 4322;Logistikkmedarbeidere;Transport og lager;Logistikk, lagerarbeid og innkjøp
 4323;Transportfunksjonærer;Transport og lager;Logistikk, lagerarbeid og innkjøp
-4411;Bibliotekassistenter;Kultur og kreative yrker;Museum, bibliotek
+4411;Bibliotekassistenter;Kultur og kreative yrker;Museum, bibliotek, arkiv
 4412;Postbud og postsorterere;Salg og service;Post og måleavlesere
 4413;Kodere mv;Kontor og økonomi;Kontor, forvaltning og saksbehandling
 4415;Arkivassistenter;Kontor og økonomi;Kontor, forvaltning og saksbehandling
@@ -256,11 +256,11 @@ Styrk code;Styrk description;Category level 1;Category level 2
 5245;Servicemedarbeidere (bensinstasjon);Salg og service;Salg, butikk- og varehandel
 5246;Gatekjøkken- og kafémedarbeidere mv.;Salg og service;Salg, butikk- og varehandel
 5249;Andre salgsmedarbeidere;Salg og service;Salg, butikk- og varehandel
-5311;Barnehage- og skolefritidsassistenter mv.;Utdanning;Barnehage
+5311;Barnehage- og skolefritidsassistenter mv.;Utdanning;Barnehage- og skolefritidsassistenter
 5312;Skoleassistenter;Utdanning;Grunnskole
-5321;Helsefagarbeidere;Helse og sosial;Helse
-5322;Hjemmehjelper;Helse og sosial;Sosial
-5329;Andre pleiemedarbeidere;Helse og sosial;Helse
+5321;Helsefagarbeidere;Helse og sosial;Helsefagarbeider
+5322;Hjemmehjelper;Helse og sosial;Hjemmehjelper og personlig assistent
+5329;Andre pleiemedarbeidere;Helse og sosial;Andre helseyrker
 5411;Brannkonstabler;Sikkerhet og beredskap;Brann-, utryknings- og redningspersonell
 5413;Fengselsbetjenter;Sikkerhet og beredskap;Politi, fengsel og toll
 5414;Vektere;Sikkerhet og beredskap;Vakt-, sikrings- og kontrollarbeid
